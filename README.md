@@ -14,7 +14,7 @@ W3School-0005/
 ├── .git/
 ├── public_html/
 ├── README.md
-├── LICENSE.md
+└── LICENSE.md
 ```
 
 This is the current file structure of the project.
