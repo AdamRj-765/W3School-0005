@@ -13,7 +13,10 @@ Below you will fine the a-typical file structure of our website that is to be de
 W3School-0005/
 ├── .git/
 ├── public_html/
+|   └── index.html
 ├── README.md
+├── .gitignore
+├── .gitattributes
 └── LICENSE.md
 ```
 
