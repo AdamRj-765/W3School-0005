@@ -18,3 +18,6 @@ W3School-0005/
 ```
 
 This is the current file structure of the project.
+
+This HTML 5 course follows the video classes that are included in the YouTube Video Playlist at this URL:
+https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB
