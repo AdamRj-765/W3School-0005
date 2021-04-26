@@ -10,8 +10,10 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 #### HTML Documents
 
-1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. All HTML documents must start with a ```<!DOCTYPE>``` declaration. The declaration is not an HTML tag. It is an "information" declaration to the browser about what document type to expect. The ```<!DOCTYPE>``` declaration is also not case sensitive so ```<!DOCTYPE>``` is the same as ```<!doctype>``` to any browser. It must only appear once, at the top of the page (before any HTML tags).
+##### The <!DOCTYPE> Declaration
 
+1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. All HTML documents must start with a ```<!DOCTYPE>``` declaration. The declaration is not an HTML tag. It is an "information" declaration to the browser about what document type to expect. The ```<!DOCTYPE>``` declaration is also not case sensitive so ```<!DOCTYPE>``` is the same as ```<!doctype>``` to any browser. It must only appear once, at the top of the page (before any HTML tags).
+	* Browsers read in a top down manor. They must see the ```<!DOCTYPE>``` declaration first, and then move on down through the rest of the code line by line so it must be declared before any elements.
 	* In older documents (HTML 4 or XHTML), the declaration is more complicated because the declaration must refer to a DTD (Document Type Definition).
 	* The ```<!DOCTYPE>``` declaration for HTML 4.01 is:
 	```
@@ -25,21 +27,16 @@ We will start with information and notes from both the Video Tutorials I am watc
 	```
 	<!DOCTYPE html>
 	```
+	* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
+
+##### The HTML <html> Tag
+
+2. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are called an **Element** but they are not considered a Section of the webpage. The ```</html>``` tag represents the root of an HTML document.
 
 
 
 
-* Currently all modern browsers will recognize the <!DOCTYPE html> to be what ever the latest version of HTML is being used and render it as such.
-
-* Browsers read in a top down manor. They see the ```<!DOCTYPE>``` declaration first, and then move on down through the rest of the code line by line so it must be declared before any elements. Use it as the first item at the top of the document.
-
-*
-
-The <!DOCTYPE> declaration for HTML5 is: ```<!DOCTYPE html>```
-
-3. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are called an **Element** but they are not considered a Section of the webpage.
-
-4. The **Head Element** (<head> </head> ), is our first *real* Section. Inside the **Head Element** will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**.
+ The **Head Element** (<head> </head> ), is our first *real* Section. Inside the **Head Element** will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**.
 
 5. The body section is the primary section of the web page.
 
