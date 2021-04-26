@@ -91,9 +91,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 6. HTML elements can be nested (this means that elements can contain other elements).
 
 	* All HTML documents consist of nested HTML elements.
-
 	* The <html> element is the root element and it defines the whole HTML document.
-
 	* Inside the <html> element there are other elements such as ```<head>```, ```<body>```, ```<h1>```, and ```<p>``` elements.
 
 
