@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-These notes will provide the information I have compiled and deemed helpful to me in understanding the information given in both the HTML video course provided in the README.md, and from the HTML online tutorials from W3Schools.com.
+These notes will provide the information I have compiled and deemed helpful to me in understanding the information given in both the HTML video course provided in the README.md, and from the HTML online tutorials from [W3Schools.com's](https://www.w3schools.com/).
 
 For this project, I am using GitHub's version control to document the progress of the test environment that is needed to  which documents the progress of my understanding of HTML5 custom code development and design. It will be a living document that I will add to and redesign on the fly in order to be a more up to date knowledgebase of the latest HTML language.
 
@@ -26,7 +26,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The <!DOCTYPE> Declaration
 
-2. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. It declaration defines that this document is an HTML5 document.
+2. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. It's declaration defines that your markup document is an HTML5 document.
 
 	* All HTML documents must start with a ```<!DOCTYPE>``` declaration and the declaration is not really an HTML tag. It is an "information" declaration to the browser about what document type to expect.
 
@@ -47,11 +47,11 @@ We will start with information and notes from both the Video Tutorials I am watc
 			```
 			<!DOCTYPE html>
 			```
-		* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
+		* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML (whatever it is), and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number for their HTML source code to the browser.
 
 ##### The HTML <html> Tag Element
 
-3. The  **HTML** ```<html>``` **Tag** is an **HTML** element and is the *root element* of an HTML page. Although the **HTML** ```<html>``` **Tag** is an **HTML** element itself, it is not the only **HTML** element in a webpage. It is the container for all other **HTML** elements (except for the ```<!DOCTYPE>``` declaration).
+3. The  **HTML** ```<html>``` **Tag** is an **HTML** element, and it is also the *root element* of an HTML page. Although the **HTML** ```<html>``` **Tag** is an **HTML** element itself, it is not the only **HTML** element in a webpage. It is the container for all other **HTML** elements (except for the ```<!DOCTYPE>``` declaration).
 	* There is only one **HTML** ```<html>``` **Tag** on a webpage and the other elements inside the **HTML** ```<html>``` **Tag** element are called **HTML** elements, but they are not *the* **HTML** element. *The* **HTML** that is the *root element* can only occur once in a webpage and needs to be just after the ```<!DOCTYPE>``` declaration.
 	* The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**.
 	* The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage.
@@ -96,12 +96,22 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 	* Inside the <html> element there are other elements such as ```<head>```, ```<body>```, ```<h1>```, and ```<p>``` elements.
 
-7. 
 
 ##### The HTML <head> Tag
 
-8. The **head** element ```<head> </head>```, is our first *real* Section. Inside the **head** element will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**. Among them is also the **viewport** meta tag.
+7. The **head** ```<head> </head>``` element contains meta information about the HTML page. It is our first *real* Section and is simply a container for **metadata** (data about data).
+	* The **head** ```<head> </head>```element is placed between the ```<html>``` tag and the ```<body>``` tag.
+	* Inside the **head** element will be items that are not visible in the markup of the document.
+	* Those items are sometimes called called  **meta tags**, **meta elements**, or **meta information**.
+	* They include items like:
+	 	* The HTML **title** ```<title>``` meta tag Element
+		* The HTML **style** ```<style>``` meta tag Element
+		* Any **JavaScript** refence links.
+		* And the **viewport** meta tag. Which handles the responsiveness of the page and allows the scalability of the **viewport** , the user's visible area of a web page on a display device.
 
-9. The body section is the primary section of the web page.
 
-10. The h1 element is also a section of the webpage. It is the title of our first body section.
+
+
+8. The body section is the primary section of the web page.
+
+9. The h1 element is also a section of the webpage. It is the title of our first body section.
