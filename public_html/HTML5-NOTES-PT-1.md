@@ -95,17 +95,18 @@ We will start with information and notes from both the Video Tutorials I am watc
 7. The **head** ```<head> </head>``` element contains meta information or metadata about the HTML page. It is our first *real* Section and is simply a container for **metadata** (data about data).
 	* The **head** ```<head> </head>```element is placed between the ```<html>``` tag and the ```<body>``` tag.
 	* Inside the **head** element will be items that are not visible in the markup of the document.
-	* Those items are sometimes called called  **HTML meta tags**, **meta elements**, **meta data** or **meta information**.
-	* They include items like:
-	 	* The HTML **title** ```<title>``` meta tag Element
-		* The HTML ```<meta>``` charset Attribute
-		* The HTML **style** ```<style>``` meta tag Element which is an external style sheet linking.
-		* Other HTML ```<meta name="">``` meta tag Elements and their attributes.
-		* Any **JavaScript** external refence links.
-		* And the **viewport** meta tag element. Which handles the responsiveness of the page and allows the browser to control the viewable dimensions and scalability of the webpage, which is the user's visible area of a web page on a display device.
+	* Those items are sometimes called  **HTML meta tags**, **meta elements**, **meta data** or **meta information**.
+	* They include these items:
+	 	* The HTML **title** ```<title>``` Element which defines the title of the document.
+		* The HTML **style** ```<style>``` Element which is used to define style information for a single HTML page.
+		* The HTML **meta** ```<meta>``` charset Attribute
+		* The HTML **link** ```<link>``` Element which defines the relationship between the current document and an external resource.
+			* Any **JavaScript** external refence links.
+		* The HTML ```<meta>``` Elements and their attributes which are used to specify the character set, page description, keywords, author of the document, and viewport settings (see below).
+			* The HTML **viewport** Element which handles the responsiveness of the page and allows the browser to control the viewable dimensions and scalability of the webpage, which is the user's visible area of a web page on a display device.
 	* Metadata typically define the document title, character set, styles, scripts, and other meta information.
 
-##### The HTML <head> Tag
+#####
 
 
 
