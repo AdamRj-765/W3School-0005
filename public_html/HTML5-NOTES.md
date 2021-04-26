@@ -39,11 +39,13 @@ We will start with information and notes from both the Video Tutorials I am watc
 ```
 <tagname>Content goes here...</tagname>
 ```
+
 	* Examples of some HTML elements:
 
 	```
 	<h1>My First Heading</h1>
 	```
+
 	* Note: Some HTML elements have no content (like the ```<br>``` element). These elements are called **empty** elements. **Empty** elements do not have an end tag!
 
 
@@ -57,11 +59,8 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### HTML <head> Tag
 
-5. The **head** element ```<head> </head>```, is our first *real* Section. Inside the **head** element will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**. Among them is also the **viewport** meta tag.
+6. The **head** element ```<head> </head>```, is our first *real* Section. Inside the **head** element will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**. Among them is also the **viewport** meta tag.
 
-6. The body section is the primary section of the web page.
+7. The body section is the primary section of the web page.
 
-7. The h1 element is also a section of the webpage. It is the title of our first body section.
-
-
-**
+8. The h1 element is also a section of the webpage. It is the title of our first body section.
