@@ -2,7 +2,9 @@
 
 ## Video 1
 
-1. Browsers read in a top down manor. It will see the Doctype Declaration (<!doctype html>)first, and then move on so it must be at the top of the document.
+1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly.
+
+Browsers read in a top down manor. It will see the Doctype Declaration ```<!doctype html>``` first, and then move on down through the code so it must be at the top of the document.
 
 2. The HTML open (<html>) and closing (</html>) tags and the items inside are called an element but they are not considered a section.
 
@@ -10,4 +12,4 @@
 
 4. The body section is the primary section of the web page.
 
-5. The h1 element is also a section of the webpage. It is the title of our first body section. 
+5. The h1 element is also a section of the webpage. It is the title of our first body section.
