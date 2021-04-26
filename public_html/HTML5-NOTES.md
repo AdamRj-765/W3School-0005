@@ -5,8 +5,9 @@
 1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly.
 It must only appear once, at the top of the page (before any HTML tags). Currently all modern browsers will recognize the <!DOCTYPE html> to be what ever the latest version of HTML is being used and render it as such. The <!DOCTYPE> declaration for HTML5 is:
 
-```<!DOCTYPE html>
-``` 
+```
+<!DOCTYPE html>
+```
 
 2. Browsers read in a top down manor. It needs to see the Doctype Declaration ```<!DOCTYPE html>``` first, and then move on down through the rest of the code so it must be at the top of the document.
 
