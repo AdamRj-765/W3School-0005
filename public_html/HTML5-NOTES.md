@@ -13,9 +13,17 @@ We will start with information and notes from both the Video Tutorials I am watc
 1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. All HTML documents must start with a ```<!DOCTYPE>``` declaration. The declaration is not an HTML tag. It is an "information" declaration to the browser about what document type to expect. The ```<!DOCTYPE>``` declaration is also not case sensitive so ```<!DOCTYPE>``` is the same as ```<!doctype>``` to any browser. It must only appear once, at the top of the page (before any HTML tags).
 
 	* In older documents (HTML 4 or XHTML), the declaration is more complicated because the declaration must refer to a DTD (Document Type Definition).
-	* The ```<!DOCTYPE>``` declaration for HTML 4 is:
+	* The ```<!DOCTYPE>``` declaration for HTML 4.01 is:
 	```
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+	```
+	* The ```<!DOCTYPE>``` declaration for XHTML 1.1 is:
+	```
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	```
+	* The ```<!DOCTYPE>``` declaration for HTML5 is:
+	```
+	<!DOCTYPE html>
 	```
 
 
