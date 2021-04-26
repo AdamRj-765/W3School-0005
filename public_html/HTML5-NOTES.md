@@ -34,7 +34,10 @@ We will start with information and notes from both the Video Tutorials I am watc
 ##### The HTML <html> Tag
 
 4. The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage. The ```<html>``` element represents the root of an HTML document.
-	* Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers. Here is an example of an ```<html>``` **open tag** with the lang attribute to declare that English be used: ```<html lang="en">```.
+	* Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers. Here is an example of an ```<html>``` **open tag** with the lang attribute to declare that English be used:
+	```
+	<html lang="en">
+	```
 
 
 
