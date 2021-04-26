@@ -62,11 +62,14 @@ We will start with information and notes from both the Video Tutorials I am watc
 ##### Empty HTML Elements
 6. Some HTML elements will display correctly, even if you forget the end tag such as the paragraph tag: ```<p>```  however, never rely on this! Unexpected results and errors may occur if you forget the end tag!
 
-* There are also what are called **empty elements** that are HTML elements with no content such as the line break tag ```<br>``` . Here is an example of a paragraph tag that is properly closed with it's content inside the open and closing tags, but also with an empty element inside the paragraph tag:
+* There are also what are called **empty elements** that are HTML elements with no content such as the line break tag ```<br>``` .
+* Here is an example of a paragraph tag that is properly closed with it's content inside the open and closing tags, but also with an empty element inside the paragraph tag:
 
 ```
 <p>This is a <br> paragraph with a line break.</p>
 ```
+* HTML tags are not case sensitive: ```<P>``` means the same as ```<p>```
+* The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
 
 ##### The HTML <html> Tag
 
