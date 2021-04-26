@@ -35,7 +35,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The HTML Element
 
-4. An HTML element is defined by a start tag, some content, and an end tag:
+4. An HTML element is defined by a start tag, some content, and an end tag: ```<tagname>Content goes here...</tagname>```
 
 
 * Examples of some HTML elements:
