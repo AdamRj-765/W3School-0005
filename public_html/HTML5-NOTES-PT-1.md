@@ -90,7 +90,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 	* Inside the <html> element there are other elements such as ```<head>```, ```<body>```, ```<h1>```, and ```<p>``` elements.
 
 
-##### The HTML <head> Tag
+##### The HTML <head> Element
 
 7. The **head** ```<head> </head>``` element contains meta information or metadata about the HTML page. It is our first *real* Section and is simply a container for **metadata** (data about data).
 	* The **head** ```<head> </head>```element is placed between the ```<html>``` tag and the ```<body>``` tag.
@@ -104,9 +104,30 @@ We will start with information and notes from both the Video Tutorials I am watc
 			* Any **JavaScript** external refence links.
 		* The HTML ```<meta>``` Elements and their attributes which are used to specify the character set, page description, keywords, author of the document, and viewport settings (see below).
 			* The HTML **viewport** Element which handles the responsiveness of the page and allows the browser to control the viewable dimensions and scalability of the webpage, which is the user's visible area of a web page on a display device.
-	* Metadata typically define the document title, character set, styles, scripts, and other meta information.
+	* Metadata typically define the document **title**, **character set**, **styles**, **scripts**, and other meta information.
 
-#####
+##### The HTML <title> Element
+
+8. The ```<title>``` element defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+	* The <title> element is required in HTML documents!
+	* The contents of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results.
+	* The <title> element:
+		* defines a title in the browser toolbar
+		* provides a title for the page when it is added to favorites
+		* displays a title for the page in search engine-results
+	* So, try to make the title as accurate and meaningful as possible!
+
+##### The HTML <style> Element
+
+9. The <style> element is used to define style information for a single HTML page.
+	* Here is an example of some css styling that is defined for the entire web page, located in the HTML ```<style>``` Element, inside the ```<head>``` element that is not considered to be **inline** styling for any specific section or single element in the page:
+	```
+	<style>
+  	body {background-color: powderblue;}
+  	h1 {color: red;}
+  	p {color: blue;}
+	</style>
+	```
 
 
 
