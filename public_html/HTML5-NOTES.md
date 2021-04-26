@@ -13,7 +13,9 @@ We will start with information and notes from both the Video Tutorials I am watc
 ##### The <!DOCTYPE> Declaration
 
 1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. All HTML documents must start with a ```<!DOCTYPE>``` declaration and the declaration is not really an HTML tag. It is an "information" declaration to the browser about what document type to expect.
+
 2. The ```<!DOCTYPE>``` declaration is also not case sensitive so browsers will accept ```<!DOCTYPE>``` as the same as ```<!doctype>```.
+
 3. It must only appear once, at the top of the page (before any HTML tags).
 	* Browsers read in a top down manor. They must see the ```<!DOCTYPE>``` declaration first, and then move on down through the rest of the code line by line so it must be declared before any elements.
 	* In older documents (HTML 4 or XHTML), the declaration is more complicated because the declaration must refer to a DTD (Document Type Definition).
@@ -31,18 +33,31 @@ We will start with information and notes from both the Video Tutorials I am watc
 		```
 	* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
 
+##### The HTML Element
+
+4. An HTML element is defined by a start tag, some content, and an end tag.  
+```
+<tagname>Content goes here...</tagname>
+```
+	* Examples of some HTML elements:
+
+	```
+	<h1>My First Heading</h1>
+	```
+	* Note: Some HTML elements have no content (like the ```<br>``` element). These elements are called **empty** elements. **Empty** elements do not have an end tag!
+
+
 ##### The HTML <html> Tag
 
-4. The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage. The ```<html>``` element represents the root of an HTML document.
+5. The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage. The ```<html>``` element represents the root of an HTML document.
 	* Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers. Here is an example of an ```<html>``` **open tag** with the lang attribute to declare that English be used:
 	```
 	<html lang="en">
 	```
 
+##### HTML <head> Tag
 
-
-
-5. The **Head Element** (<head> </head> ), is our first *real* Section. Inside the **Head Element** will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**.
+5. The **head** element ```<head> </head>```, is our first *real* Section. Inside the **head** element will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**. Among them is also the **viewport** meta tag.
 
 6. The body section is the primary section of the web page.
 
