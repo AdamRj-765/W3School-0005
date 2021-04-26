@@ -43,6 +43,9 @@ We will start with information and notes from both the Video Tutorials I am watc
 ```
 <h1>My First Heading</h1>
 ```
+```
+<p>My first paragraph.</p>
+```
 
 * Note: Some HTML elements have no content (like the ```<br>``` element). These elements are called **empty** elements. **Empty** elements do not have an end tag!
 
