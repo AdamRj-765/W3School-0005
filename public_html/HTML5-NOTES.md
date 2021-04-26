@@ -1,13 +1,14 @@
 # W3School-0005 Video Notes
 
-## Video 1
-
-### HTML Documents
+## INTRODUCTION
 
 These notes will provide the notes I have compiled for understanding the HTML video course outlined in the README.md for this project which documents the progress of my understanding of HTML5 custom code development and design. It will be a living document that I will add to and redesign on the fly in order to be a more up to date knowledgebase of the latest HTML language.
 
 We will start with information from both the Video Tutorials I am watching, and from [W3Schools.com's](https://www.w3schools.com/) wonderful courses and reference online documents.
 
+### Video 1
+
+#### HTML Documents
 
 1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. All HTML documents must start with a ```<!DOCTYPE>``` declaration. The declaration is not an HTML tag. It is an "information" declaration to the browser about what document type to expect. The ```<!DOCTYPE>``` declaration is also not case sensitive so ```<!DOCTYPE>``` is the same as ```<!doctype>```
 
