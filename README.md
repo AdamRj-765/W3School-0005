@@ -14,6 +14,16 @@ W3School-0005/
 ├── .git/
 ├── public_html/
 |   └── index.html
+├── public_html_templates/
+|   ├── default_w3c_index.html
+|   ├── default_w3c_index-0005.html
+|   ├── default_w3c_index-0010.html
+|   ├── default_w3c_index-0015.html
+|   ├── default_w3c_index-0020.html
+|   ├── default_w3c_index-0025.html
+|   ├── default_w3c_refreshes_index-0030.html
+|   ├── default_w3c_responsive_index-0005.html
+|   ├── MARKDOWN_CHEAT.md
 ├── README.md
 ├── .gitignore
 ├── .gitattributes
