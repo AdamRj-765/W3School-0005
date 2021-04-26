@@ -12,35 +12,37 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The <!DOCTYPE> Declaration
 
-1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. All HTML documents must start with a ```<!DOCTYPE>``` declaration. The declaration is not an HTML tag. It is an "information" declaration to the browser about what document type to expect. The ```<!DOCTYPE>``` declaration is also not case sensitive so ```<!DOCTYPE>``` is the same as ```<!doctype>``` to any browser. It must only appear once, at the top of the page (before any HTML tags).
+1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. All HTML documents must start with a ```<!DOCTYPE>``` declaration and the declaration is not really an HTML tag. It is an "information" declaration to the browser about what document type to expect.
+2. The ```<!DOCTYPE>``` declaration is also not case sensitive so browsers will accept ```<!DOCTYPE>``` as the same as ```<!doctype>```.
+3. It must only appear once, at the top of the page (before any HTML tags).
 	* Browsers read in a top down manor. They must see the ```<!DOCTYPE>``` declaration first, and then move on down through the rest of the code line by line so it must be declared before any elements.
 	* In older documents (HTML 4 or XHTML), the declaration is more complicated because the declaration must refer to a DTD (Document Type Definition).
-	* The ```<!DOCTYPE>``` declaration for HTML 4.01 is:
-	```
-	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-	```
-	* The ```<!DOCTYPE>``` declaration for XHTML 1.1 is:
-	```
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-	```
-	* The ```<!DOCTYPE>``` declaration for HTML5 is:
-	```
-	<!DOCTYPE html>
-	```
+		* The ```<!DOCTYPE>``` declaration for HTML 4.01 is:
+		```
+		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+		```
+		* The ```<!DOCTYPE>``` declaration for XHTML 1.1 is:
+		```
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+		```
+		* The ```<!DOCTYPE>``` declaration for HTML5 is:
+		```
+		<!DOCTYPE html>
+		```
 	* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
 
 ##### The HTML <html> Tag
 
-2. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are called an **Element** but they are not considered a Section of the webpage. The ```</html>``` tag represents the root of an HTML document.
+4. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are called an **Element** but they are not considered a Section of the webpage. The ```</html>``` tag represents the root of an HTML document.
 
 
 
 
- The **Head Element** (<head> </head> ), is our first *real* Section. Inside the **Head Element** will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**.
+5. The **Head Element** (<head> </head> ), is our first *real* Section. Inside the **Head Element** will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**.
 
-5. The body section is the primary section of the web page.
+6. The body section is the primary section of the web page.
 
-6. The h1 element is also a section of the webpage. It is the title of our first body section.
+7. The h1 element is also a section of the webpage. It is the title of our first body section.
 
 
 **
