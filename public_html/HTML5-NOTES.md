@@ -26,7 +26,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The <!DOCTYPE> Declaration
 
-1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. It declaration defines that this document is an HTML5 document.
+2. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. It declaration defines that this document is an HTML5 document.
 
 	* All HTML documents must start with a ```<!DOCTYPE>``` declaration and the declaration is not really an HTML tag. It is an "information" declaration to the browser about what document type to expect.
 
@@ -47,53 +47,56 @@ We will start with information and notes from both the Video Tutorials I am watc
 			```
 			<!DOCTYPE html>
 			```
-			* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
+		* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
 
-##### The HTML Element
+##### The HTML <html> Tag Element
 
-4. An HTML element is defined by a start tag, some content, and an end tag: ```<tagname>Content goes here...</tagname>```
+3. The  **HTML** ```<html>``` **Tag** is an **HTML** element and is the *root element* of an HTML page. Although the **HTML** ```<html>``` **Tag** is an **HTML** element itself, it is not the only **HTML** element in a webpage. It is the container for all other **HTML** elements (except for the ```<!DOCTYPE>``` declaration).
+	* There is only one **HTML** ```<html>``` **Tag** on a webpage and the other elements inside the **HTML** ```<html>``` **Tag** element are called **HTML** elements, but they are not *the* **HTML** element. *The* **HTML** that is the *root element* can only occur once in a webpage and needs to be just after the ```<!DOCTYPE>``` declaration.
+	* The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**.
+	* The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage.
 
-
-* Examples of some HTML elements:
-
-```
-<h1>My First Heading</h1>
-```
-```
-<p>My first paragraph.</p>
-```
-
-* Note: Some HTML elements have no content (like the ```<br>``` element). These elements are called **empty** elements. **Empty** elements do not have an end tag!
-
-##### Nested HTML Elements
-
-5. HTML elements can be nested (this means that elements can contain other elements).
-
-* All HTML documents consist of nested HTML elements.
-
-* The <html> element is the root element and it defines the whole HTML document.
-
-* Inside the <html> element there are other elements such as ```<head>```, ```<body>```, ```<h1>```, and ```<p>``` elements.
-
-##### Empty HTML Elements
-6. Some HTML elements will display correctly, even if you forget the end tag such as the paragraph tag: ```<p>```  however, never rely on this! Unexpected results and errors may occur if you forget the end tag!
-
-* There are also what are called **empty elements** that are HTML elements with no content such as the line break tag ```<br>``` .
-* Here is an example of a paragraph tag that is properly closed with it's content inside the open and closing tags, but also with an empty element inside the paragraph tag:
-
-```
-<p>This is a <br> paragraph with a line break.</p>
-```
-* HTML tags are not case sensitive: ```<P>``` means the same as ```<p>```
-* The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
-
-##### The HTML <html> Tag
-
-7. The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage. The ```<html>``` element represents the root of an HTML document.
-	* Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers. Here is an example of an ```<html>``` **open tag** with the lang attribute to declare that English be used:
+	* Note: You should always include the *lang* attribute inside the ```<html>``` tag, to declare the language of the Web page. This is meant to assist search engines and browsers. The following code shows how to reference a the English language using the *lang* attribute inside the ```<html>``` tag:
 	```
 	<html lang="en">
 	```
+
+##### HTML Elements
+
+4. An **HTML** element is defined by a start tag, some content, and an end tag as seen here: ```<tagname>Content goes here...</tagname>``` .
+	* Examples of some HTML elements:
+	```
+	<h1>My First Heading</h1>
+	```
+	```
+	<p>My first paragraph.</p>
+	```
+	* HTML tags are not case sensitive: ```<P>``` means the same as ```<p>```
+	* The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
+	* Note: Some **HTML** elements have no content (like the ```<br>``` element). These elements are called **empty** elements. **Empty** elements do not have an end tag!
+
+##### Empty HTML Elements
+
+5. Some HTML elements will display correctly, even if you forget the end tag such as the paragraph tag: ```<p>```  however, never rely on this! Unexpected results and errors may occur if you forget the end tag!
+
+	* There are also what are called **empty elements** that are HTML elements with no content such as the line break tag ```<br>``` .
+	* Here is an example of a paragraph tag that is properly closed with it's content inside the open and closing tags, but also with an empty element inside the paragraph tag:
+
+	```
+	<p>This is a <br> paragraph with a line break.</p>
+	```
+
+##### Nested HTML Elements
+
+6. HTML elements can be nested (this means that elements can contain other elements).
+
+	* All HTML documents consist of nested HTML elements.
+
+	* The <html> element is the root element and it defines the whole HTML document.
+
+	* Inside the <html> element there are other elements such as ```<head>```, ```<body>```, ```<h1>```, and ```<p>``` elements.
+
+7. 
 
 ##### The HTML <head> Tag
 
