@@ -13,6 +13,7 @@ Below you will fine the a-typical file structure of our website that is to be de
 W3School-0005/
 ├── .git/
 ├── public_html/
+|   ├── HTML5-NOTES.md
 |   └── index.html
 ├── public_html_templates/
 |   ├── default_w3c_index.html
