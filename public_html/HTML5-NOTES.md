@@ -27,11 +27,8 @@ We will start with information and notes from both the Video Tutorials I am watc
 ##### The <!DOCTYPE> Declaration
 
 2. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. It's declaration defines that your markup document is an HTML5 document.
-
 	* All HTML documents must start with a ```<!DOCTYPE>``` declaration and the declaration is not really an HTML tag. It is an "information" declaration to the browser about what document type to expect.
-
 	* The ```<!DOCTYPE>``` declaration is also not case sensitive so browsers will accept ```<!DOCTYPE>``` as the same as ```<!doctype>```.
-
 	* It must only appear once, at the top of the page (before any HTML tags).
 		* Browsers read in a top down manor. They must see the ```<!DOCTYPE>``` declaration first, and then move on down through the rest of the code line by line so it must be declared before any elements.
 		* In older documents (HTML 4 or XHTML), the declaration is more complicated because the declaration must refer to a DTD (Document Type Definition).
@@ -78,7 +75,6 @@ We will start with information and notes from both the Video Tutorials I am watc
 ##### Empty HTML Elements
 
 5. Some HTML elements will display correctly, even if you forget the end tag such as the paragraph tag: ```<p>```  however, never rely on this! Unexpected results and errors may occur if you forget the end tag!
-
 	* There are also what are called **empty elements** that are HTML elements with no content such as the line break tag ```<br>``` .
 	* Here is an example of a paragraph tag that is properly closed with it's content inside the open and closing tags, but also with an empty element inside the paragraph tag:
 
@@ -89,7 +85,6 @@ We will start with information and notes from both the Video Tutorials I am watc
 ##### Nested HTML Elements
 
 6. HTML elements can be nested (this means that elements can contain other elements).
-
 	* All HTML documents consist of nested HTML elements.
 	* The <html> element is the root element and it defines the whole HTML document.
 	* Inside the <html> element there are other elements such as ```<head>```, ```<body>```, ```<h1>```, and ```<p>``` elements.
