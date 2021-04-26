@@ -57,9 +57,10 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 * The <html> element is the root element and it defines the whole HTML document.
 
-* Inside the <html> element there are other elements such as <head>, <body>, <h1>, and <p> elements.
+* Inside the <html> element there are other elements such as ```<head>```, ```<body>```, ```<h1>```, and ```<p>``` elements.
 
-* Some HTML elements will display correctly, even if you forget the end tag such as the paragraph tag: ```<p>```  however, never rely on this! Unexpected results and errors may occur if you forget the end tag!
+##### Empty HTML Elements
+6. Some HTML elements will display correctly, even if you forget the end tag such as the paragraph tag: ```<p>```  however, never rely on this! Unexpected results and errors may occur if you forget the end tag!
 
 * There are also what are called **empty elements** that are HTML elements with no content such as the line break tag ```<br>``` . Here is an example of a paragraph tag that is properly closed with it's content inside the open and closing tags, but also with an empty element inside the paragraph tag:
 
@@ -69,7 +70,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The HTML <html> Tag
 
-5. The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage. The ```<html>``` element represents the root of an HTML document.
+7. The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage. The ```<html>``` element represents the root of an HTML document.
 	* Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers. Here is an example of an ```<html>``` **open tag** with the lang attribute to declare that English be used:
 	```
 	<html lang="en">
@@ -77,8 +78,8 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The HTML <head> Tag
 
-6. The **head** element ```<head> </head>```, is our first *real* Section. Inside the **head** element will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**. Among them is also the **viewport** meta tag.
+8. The **head** element ```<head> </head>```, is our first *real* Section. Inside the **head** element will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**. Among them is also the **viewport** meta tag.
 
-7. The body section is the primary section of the web page.
+9. The body section is the primary section of the web page.
 
-8. The h1 element is also a section of the webpage. It is the title of our first body section.
+10. The h1 element is also a section of the webpage. It is the title of our first body section.
