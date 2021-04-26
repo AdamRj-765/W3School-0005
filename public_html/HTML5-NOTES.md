@@ -12,28 +12,42 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 #### HTML Documents
 
+1. HTML is the standard markup language for creating Web pages.
+
+##### What is HTML?
+
+ * HTML stands for Hyper Text Markup Language
+ * HTML is the standard markup language for creating Web pages
+ * HTML describes the structure of a Web page
+ * HTML consists of a series of elements
+ * HTML elements tell the browser how to display the content
+ * HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+
 ##### The <!DOCTYPE> Declaration
 
-1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. All HTML documents must start with a ```<!DOCTYPE>``` declaration and the declaration is not really an HTML tag. It is an "information" declaration to the browser about what document type to expect.
+1. The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly. It declaration defines that this document is an HTML5 document.
 
-2. The ```<!DOCTYPE>``` declaration is also not case sensitive so browsers will accept ```<!DOCTYPE>``` as the same as ```<!doctype>```.
+	* All HTML documents must start with a ```<!DOCTYPE>``` declaration and the declaration is not really an HTML tag. It is an "information" declaration to the browser about what document type to expect.
 
-3. It must only appear once, at the top of the page (before any HTML tags).
-	* Browsers read in a top down manor. They must see the ```<!DOCTYPE>``` declaration first, and then move on down through the rest of the code line by line so it must be declared before any elements.
-	* In older documents (HTML 4 or XHTML), the declaration is more complicated because the declaration must refer to a DTD (Document Type Definition).
-		* The ```<!DOCTYPE>``` declaration for HTML 4.01 is:
-		```
-		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-		```
-		* The ```<!DOCTYPE>``` declaration for XHTML 1.1 is:
-		```
-		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-		```
-		* The ```<!DOCTYPE>``` declaration for HTML5 is:
-		```
-		<!DOCTYPE html>
-		```
-	* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
+	* The ```<!DOCTYPE>``` declaration is also not case sensitive so browsers will accept ```<!DOCTYPE>``` as the same as ```<!doctype>```.
+
+	* It must only appear once, at the top of the page (before any HTML tags).
+		* Browsers read in a top down manor. They must see the ```<!DOCTYPE>``` declaration first, and then move on down through the rest of the code line by line so it must be declared before any elements.
+		* In older documents (HTML 4 or XHTML), the declaration is more complicated because the declaration must refer to a DTD (Document Type Definition).
+			* The ```<!DOCTYPE>``` declaration for HTML 4.01 is:
+			```
+			<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+			```
+			* The ```<!DOCTYPE>``` declaration for XHTML 1.1 is:
+			```
+			<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+			```
+			* The ```<!DOCTYPE>``` declaration for HTML5 is:
+			```
+			<!DOCTYPE html>
+			```
+			* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
 
 ##### The HTML Element
 
