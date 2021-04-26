@@ -35,18 +35,13 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The HTML Element
 
-4. An HTML element is defined by a start tag, some content, and an end tag.  
+4. An HTML element is defined by a start tag, some content, and an end tag: ```<tagname>Content goes here...</tagname>```
+* Examples of some HTML elements:
 ```
-<tagname>Content goes here...</tagname>
+<h1>My First Heading</h1>
 ```
 
-	* Examples of some HTML elements:
-
-	```
-	<h1>My First Heading</h1>
-	```
-
-	* Note: Some HTML elements have no content (like the ```<br>``` element). These elements are called **empty** elements. **Empty** elements do not have an end tag!
+* Note: Some HTML elements have no content (like the ```<br>``` element). These elements are called **empty** elements. **Empty** elements do not have an end tag!
 
 
 ##### The HTML <html> Tag
