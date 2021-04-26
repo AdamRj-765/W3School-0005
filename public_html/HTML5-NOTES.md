@@ -29,11 +29,12 @@ We will start with information and notes from both the Video Tutorials I am watc
 		```
 		<!DOCTYPE html>
 		```
-	* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
+	* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML whatever it is and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number.
 
 ##### The HTML <html> Tag
 
-4. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are called an **Element** but they are not considered a Section of the webpage. The ```</html>``` tag represents the root of an HTML document.
+4. The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**. The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage. The ```<html>``` element represents the root of an HTML document.
+	* Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers. Here is an example of an ```<html>``` **open tag** with the lang attribute to declare that English be used: ```<html lang="en">```.
 
 
 
