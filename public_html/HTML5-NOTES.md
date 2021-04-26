@@ -49,6 +49,16 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 * Note: Some HTML elements have no content (like the ```<br>``` element). These elements are called **empty** elements. **Empty** elements do not have an end tag!
 
+##### Nested HTML Elements
+
+5. HTML elements can be nested (this means that elements can contain other elements).
+
+* All HTML documents consist of nested HTML elements.
+
+* The <html> element is the root element and it defines the whole HTML document.
+
+* Inside the <html> element there are other elements such as <head>, <body>, <h1>, and <p> elements.
+
 
 ##### The HTML <html> Tag
 
@@ -58,7 +68,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 	<html lang="en">
 	```
 
-##### HTML <head> Tag
+##### The HTML <head> Tag
 
 6. The **head** element ```<head> </head>```, is our first *real* Section. Inside the **head** element will be items that are not visible in the markup of the document. They include the **title** tag, any **meta tags**, and **JavaScript Refences**. Among them is also the **viewport** meta tag.
 
