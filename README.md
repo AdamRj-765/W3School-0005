@@ -56,4 +56,4 @@ This HTML 5 course follows the video classes that are included in the YouTube Vi
 ## HTML Tutorial for Beginners
 https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB
 
-It does not attempt to plagiarize or claim that any notes taken are products of our team or it's educators or collaborative discussions and all copied materials that resemble or are exact copies of their copyrighted works or content are purely for educational purposes and [Omni-Solutions Tech](https://www.omni-solutions-tech.com/)
+It does not attempt to plagiarize or claim that any notes taken are products of our team or it's educators or collaborative discussions and all copied materials that resemble or are exact copies of their copyrighted works or content are purely for educational purposes and solely the property of the owners of such materials and **NOT** the property of [Omni-Solutions Tech](https://www.omni-solutions-tech.com/)
