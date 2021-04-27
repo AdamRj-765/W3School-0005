@@ -169,13 +169,13 @@ We will start with information and notes from both the Video Tutorials I am watc
 	Then you would have to have a separate file with the filename ```style.css``` located in this case in the same folder as your ```index.html``` file (or your webpage that links to the stylesheet), that has the styling you wish to use in your webpage. It might look something like this:
 	```
 	body {
-  	background-color: powderblue;
+		background-color: powderblue;
 	}
 	h1 {
-  	color: blue;
+		color: blue;
 	}
 	p {
-  	color: red;
+		color: red;
 	}
 	```
 
