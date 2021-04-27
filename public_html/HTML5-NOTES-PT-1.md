@@ -1,5 +1,6 @@
 # W3School-0005 Video Notes Pt 1
 
+
 ## INTRODUCTION
 
 These notes will provide the information I have compiled and deemed helpful to me in understanding the information given in both the HTML video course provided in the README.md, and from the HTML online tutorials from [W3Schools.com's](https://www.w3schools.com/).
@@ -8,11 +9,14 @@ For this project, I am using GitHub's version control to document the progress o
 
 We will start with information and notes from both the Video Tutorials I am watching, and from [W3Schools.com's](https://www.w3schools.com/) wonderful courses and online reference  documents.
 
+
 ### Video 1
+
 
 #### HTML Documents
 
 1. HTML is the standard markup language for creating Web pages.
+
 
 ##### What is HTML?
 
@@ -46,6 +50,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 			```
 		* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML (whatever it is), and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number for their HTML source code to the browser.
 
+
 ##### The HTML <html> Tag Element
 
 3. The  **HTML** ```<html>``` **Tag** is an **HTML** element, and it is also the *root element* of an HTML page. Although the **HTML** ```<html>``` **Tag** is an **HTML** element itself, it is not the only **HTML** element in a webpage. It is the container for all other **HTML** elements (except for the ```<!DOCTYPE>``` declaration).
@@ -53,10 +58,17 @@ We will start with information and notes from both the Video Tutorials I am watc
 	* The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**.
 	* The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage.
 
-	* Note: You should always include the *lang* attribute inside the ```<html>``` tag, to declare the language of the Web page. This is meant to assist search engines and browsers. The following code shows how to reference a the English language using the *lang* attribute inside the ```<html>``` tag:
+	* Note: Y
+
+
+##### The lang Attribute
+
+4. The **lang** attribute specifies the language of the element's content. Some common examples are "en" for English, "es" for Spanish, "fr" for French, and so on.
+	* The *lang* attribute should be just after the ```<!DOCTYPE>``` declaration and you should always include the *lang* attribute inside the ```<html>``` tag, to declare the language of the Web page. This is meant to assist search engines and browsers. The following code shows how to reference a the English language using the *lang* attribute inside the ```<html>``` tag:
 	```
 	<html lang="en">
 	```
+
 
 ##### HTML Elements
 
@@ -71,6 +83,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 	* HTML tags are not case sensitive: ```<P>``` means the same as ```<p>```
 	* The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
 	* Note: Some **HTML** elements have no content (like the ```<br>``` element). These elements are called **empty** elements. **Empty** elements do not have an end tag!
+
 
 ##### Empty HTML Elements
 
@@ -106,21 +119,23 @@ We will start with information and notes from both the Video Tutorials I am watc
 			* The HTML **viewport** Element which handles the responsiveness of the page and allows the browser to control the viewable dimensions and scalability of the webpage, which is the user's visible area of a web page on a display device.
 	* Metadata typically define the document **title**, **character set**, **styles**, **scripts**, and other meta information.
 
+
 ##### The HTML <title> Element
 
 8. The ```<title>``` element defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
-	* The <title> element is required in HTML documents!
+	* The ```<title>``` element is required in HTML documents!
 	* The contents of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results.
-	* The <title> element:
+	* The ```<title>``` element:
 		* defines a title in the browser toolbar
 		* provides a title for the page when it is added to favorites
 		* displays a title for the page in search engine-results
 	* So, try to make the title as accurate and meaningful as possible!
 
+
 ##### The HTML <style> Element
 
-9. The <style> element is used to define style information for a single HTML page.
-	* Here is an example of some css styling that is defined for the entire web page, located in the HTML ```<style>``` Element, inside the ```<head>``` element that is not considered to be **inline** styling for any specific section or single element in the page:
+9. The ```<style>``` element is used to define style information for a single HTML page.
+	* Here is an example of some css styling that is defined for the entire web page, located in the HTML ```<style>``` element, inside the ```<head>``` element that is not considered to be **inline** styling for any specific section or single element in the page:
 	```
 	<style>
   	body {background-color: powderblue;}
@@ -128,7 +143,72 @@ We will start with information and notes from both the Video Tutorials I am watc
   	p {color: blue;}
 	</style>
 	```
+	* Another way to stylize the markup on your HTML page is to use **Inline Styles**, **Inline Styling**, **Inline CSS Styling**, or just called **Inline CSS**.
+		* **Inline CSS Styling** is used to apply a unique style to a single HTML element.
+		* An **inline CSS** uses the ```style``` attribute of an HTML element.
+		* The following example sets the text color of the ```<h1>``` element to *blue*, and the text color of the ```<p>``` element to *red*:
+		```
+		<h1 style="color:blue;">A Blue Heading</h1>
+		<p style="color:red;">A red paragraph.</p>
+		```
+		* Here is another example of Inline CSS Styling:
+		```
+		<p style="color:blue;font-size:46px;">
+			I'm a big, blue, <strong>strong</strong> paragraph
+		</p>
+		```
 
+
+##### The HTML <link> Element
+
+10. The ```<link>``` element defines the relationship between the current document and an external resource.
+	* The ```<link>``` tag is most often used to link to external style sheets:
+	```
+	<link rel="stylesheet" href="style.css">
+	```
+	Then you would have to have a separate file with the filename ```style.css``` located in this case in the same folder as your ```index.html``` file (or your webpage that links to the stylesheet), that has the styling you wish to use in your webpage. It might look something like this:
+	```
+	body {
+  	background-color: powderblue;
+	}
+	h1 {
+  	color: blue;
+	}
+	p {
+  	color: red;
+	}
+	```
+
+
+##### The HTML <meta> Element
+
+11. The ```<meta>``` element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+	* The metadata will not be displayed on the page, but are used by browsers (how to display content or reload page), by search engines (keywords), and other web services.
+	* Examples are
+		* Define the character set used:
+		```
+		<meta charset="UTF-8">
+		```
+		* Define keywords for search engines:
+		```
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		```
+		* Define a description of your web page:
+		```
+		<meta name="description" content="Free Web tutorials">
+		```
+		* Define the author of a page:
+		```
+		<meta name="author" content="John Doe">
+		```
+		* Refresh document every 30 seconds:
+		```
+		<meta http-equiv="refresh" content="30">
+		```
+		* Setting the viewport to make your website look good on all devices:
+		```
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		```
 
 
 
