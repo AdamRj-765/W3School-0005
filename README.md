@@ -12,8 +12,11 @@ Below you will fine the a-typical file structure of our website that is to be de
 ```
 W3School-0005/
 ├── .git/
+├── COURSE_NOTES/
+|   ├── HTML5-NOTES-PT-1.md
+|   ├── HTML5-NOTES-PT-2.md
+|   └── MARKDOWN_CHEAT.md
 ├── public_html/
-|   ├── HTML5-NOTES.md
 |   └── index.html
 ├── public_html_templates/
 |   ├── default_w3c_index.html
@@ -23,12 +26,11 @@ W3School-0005/
 |   ├── default_w3c_index-0020.html
 |   ├── default_w3c_index-0025.html
 |   ├── default_w3c_refreshes_index-0030.html
-|   ├── default_w3c_responsive_index-0005.html
-|   ├── MARKDOWN_CHEAT.md
-├── README.md
-├── .gitignore
+|   └── default_w3c_responsive_index-0005.html
 ├── .gitattributes
-└── LICENSE.md
+├── .gitignore
+├── LICENSE.md
+└── README.md
 ```
 
 This is the current file structure of the project.
