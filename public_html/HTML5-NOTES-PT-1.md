@@ -138,9 +138,9 @@ We will start with information and notes from both the Video Tutorials I am watc
 	* Here is an example of some css styling that is defined for the entire web page, located in the HTML ```<style>``` element, inside the ```<head>``` element that is not considered to be **inline** styling for any specific section or single element in the page:
 	```
 	<style>
-  	body {background-color: powderblue;}
-  	h1 {color: red;}
-  	p {color: blue;}
+		body {background-color: powderblue;}
+		h1 {color: red;}
+		p {color: blue;}
 	</style>
 	```
 	* Another way to stylize the markup on your HTML page is to use **Inline Styles**, **Inline Styling**, **Inline CSS Styling**, or just called **Inline CSS**.
