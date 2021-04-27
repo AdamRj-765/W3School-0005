@@ -3,7 +3,7 @@
 
 ## INTRODUCTION
 
-These notes will provide the information I have compiled and deemed helpful to me in understanding the information given in both the HTML video course provided in the README.md, and from the HTML online tutorials from [W3Schools.com's](https://www.w3schools.com/).
+These notes will provide the information I have compiled and deemed helpful to me in understanding the information given in both the HTML video course provided in the README.md, and from the HTML online tutorials from [W3Schools.com](https://www.w3schools.com/).
 
 For this project, I am using GitHub's version control to document the progress of the test environment that is needed to  which documents the progress of my understanding of HTML5 custom code development and design. It will be a living document that I will add to and redesign on the fly in order to be a more up to date knowledgebase of the latest HTML language.
 
@@ -58,13 +58,11 @@ We will start with information and notes from both the Video Tutorials I am watc
 	* The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**.
 	* The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage.
 
-	* Note: Y
-
 
 ##### The lang Attribute
 
 4. The **lang** attribute specifies the language of the element's content. Some common examples are "en" for English, "es" for Spanish, "fr" for French, and so on.
-	* The *lang* attribute should be just after the ```<!DOCTYPE>``` declaration and you should always include the *lang* attribute inside the ```<html>``` tag, to declare the language of the Web page. This is meant to assist search engines and browsers. The following code shows how to reference a the English language using the *lang* attribute inside the ```<html>``` tag:
+	* The *lang* attribute should be just after the ```<!DOCTYPE>``` declaration and you should always include the *lang* attribute inside the ```<html>``` tag, to declare the language of the Web page. This is meant to assist search engines and browsers. The following code shows how to reference the English language using the *lang* attribute inside the ```<html>``` tag:
 	```
 	<html lang="en">
 	```
@@ -72,7 +70,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### HTML Elements
 
-4. An **HTML** element is defined by a start tag, some content, and an end tag as seen here: ```<tagname>Content goes here...</tagname>``` .
+5. An **HTML** element is defined by a start tag, some content, and an end tag as seen here: ```<tagname>Content goes here...</tagname>``` .
 	* Examples of some HTML elements:
 	```
 	<h1>My First Heading</h1>
@@ -87,7 +85,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### Empty HTML Elements
 
-5. Some HTML elements will display correctly, even if you forget the end tag such as the paragraph tag: ```<p>```  however, never rely on this! Unexpected results and errors may occur if you forget the end tag!
+6. Some HTML elements will display correctly, even if you forget the end tag such as the paragraph tag: ```<p>```  however, never rely on this! Unexpected results and errors may occur if you forget the end tag!
 	* There are also what are called **empty elements** that are HTML elements with no content such as the line break tag ```<br>``` .
 	* Here is an example of a paragraph tag that is properly closed with it's content inside the open and closing tags, but also with an empty element inside the paragraph tag:
 
@@ -97,7 +95,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### Nested HTML Elements
 
-6. HTML elements can be nested (this means that elements can contain other elements).
+7. HTML elements can be nested (this means that elements can contain other elements).
 	* All HTML documents consist of nested HTML elements.
 	* The <html> element is the root element and it defines the whole HTML document.
 	* Inside the <html> element there are other elements such as ```<head>```, ```<body>```, ```<h1>```, and ```<p>``` elements.
@@ -105,7 +103,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The HTML <head> Element
 
-7. The **head** ```<head> </head>``` element contains meta information or metadata about the HTML page. It is our first *real* Section and is simply a container for **metadata** (data about data).
+8. The **head** ```<head> </head>``` element contains meta information or metadata about the HTML page. It is our first *real* Section and is simply a container for **metadata** (data about data).
 	* The **head** ```<head> </head>```element is placed between the ```<html>``` tag and the ```<body>``` tag.
 	* Inside the **head** element will be items that are not visible in the markup of the document.
 	* Those items are sometimes called  **HTML meta tags**, **meta elements**, **meta data** or **meta information**.
@@ -122,7 +120,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The HTML <title> Element
 
-8. The ```<title>``` element defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+9. The ```<title>``` element defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
 	* The ```<title>``` element is required in HTML documents!
 	* The contents of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results.
 	* The ```<title>``` element:
@@ -134,7 +132,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The HTML <style> Element
 
-9. The ```<style>``` element is used to define style information for a single HTML page.
+10. The ```<style>``` element is used to define style information for a single HTML page.
 	* Here is an example of some css styling that is defined for the entire web page, located in the HTML ```<style>``` element, inside the ```<head>``` element that is not considered to be **inline** styling for any specific section or single element in the page:
 	```
 	<style>
@@ -161,7 +159,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The HTML <link> Element
 
-10. The ```<link>``` element defines the relationship between the current document and an external resource.
+11. The ```<link>``` element defines the relationship between the current document and an external resource.
 	* The ```<link>``` tag is most often used to link to external style sheets:
 	```
 	<link rel="stylesheet" href="style.css">
@@ -182,7 +180,7 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 ##### The HTML <meta> Element
 
-11. The ```<meta>``` element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+12. The ```<meta>``` element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
 	* The metadata will not be displayed on the page, but are used by browsers (how to display content or reload page), by search engines (keywords), and other web services.
 	* Examples are
 		* Define the character set used:
