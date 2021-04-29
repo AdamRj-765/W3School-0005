@@ -17,7 +17,8 @@ We will start with information and notes from both the Video Tutorials reference
 
 ##### HTML Page Structure
 
-	```ditaa {cmd=true args=["=E"]}
+	```
+	ditaa {cmd=true args=["=E"]}
 	+------------------------------------------------------------------------------------+
 	|                                                                                    |
 	|                                                                                    |
