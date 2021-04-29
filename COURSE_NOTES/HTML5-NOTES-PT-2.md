@@ -17,41 +17,22 @@ We will start with information and notes from both the Video Tutorials reference
 
 ##### HTML Page Structure
 
-	```
-	ditaa {cmd=true args=["=E"]}
-	+------------------------------------------------------------------------------------+
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-	|                                                                                    |
-  +------------------------------------------------------------------------------------+
-	```
-
-```
-  ┌──────────────────────────────────────────────────────────┐
-	│                     Host OS (Linux)                      │
-	│                                                          │
-	│  ┌───────────────┐ ┌───────────────┐  ┌───────────────┐  │
-	│  │ Container OS  │ │ Container OS  │  │ Container OS  │  │
-	│  │   (Ubuntu)    │ │   (Ubuntu)    │  │   (Ubuntu)    │  │
-	│  │ ┌───────────┐ │ │ ┌───────────┐ │  │ ┌───────────┐ │  │
-	│  │ │ Couchbase │ │ │ │ Couchbase │ │  │ │ Couchbase │ │  │
-	│  │ │  Server   │ │ │ │  Server   │ │  │ │  Server   │ │  │
-	│  │ └───────────┘ │ │ └───────────┘ │  │ └───────────┘ │  │
-	│  └───────────────┘ └───────────────┘  └───────────────┘  │
-	└──────────────────────────────────────────────────────────┘
-```
+<div style="width:99%;border:1px solid grey;padding:3px;margin:0;background-color:#ddd">&lt;html&gt;
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px">&lt;head&gt;
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;title&gt;Page title&lt;/title&gt;
+</div>
+&lt;/head&gt;
+</div>
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#ddd">&lt;body&gt;
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#fff">
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;h1&gt;This is a heading&lt;/h1&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is another paragraph.&lt;/p&gt;</div>
+</div>
+&lt;/body&gt;
+</div>
+&lt;/html&gt;
+</div>
 
 8. The body section is the primary section of the web page.
 
