@@ -17,7 +17,7 @@ We will start with information and notes from both the Video Tutorials reference
 
 ##### HTML Page Structure
 
-14. Here is a diagram of
+14. Here is a diagram or visualization of an HTML page structure:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -48,6 +48,13 @@ We will start with information and notes from both the Video Tutorials reference
 | </html>                                                                                                    |
 └────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
+
+	* Note: The content inside the <body> section (the white area above) will be displayed in a browser. The content inside the <title> element will be shown in the browser's title bar or in the page's tab.
+
+	* Some good links for learning HTML5 coding standards are:
+		* [WHATWG HTML5 Living Standard](https://html.spec.whatwg.org/multipage/) 2012
+		* [W3C Recommendation: HTML 5.1 2nd Edition](https://www.w3.org/TR/html51/) 2017
+		* [W3C Recommendation: HTML5.2](https://www.w3.org/TR/html52/)
 
 
 
