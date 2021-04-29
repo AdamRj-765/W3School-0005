@@ -38,6 +38,19 @@ We will start with information and notes from both the Video Tutorials reference
   +------------------------------------------------------------------------------------+
 	```
 
+  ┌──────────────────────────────────────────────────────────┐
+	│                     Host OS (Linux)                      │
+	│                                                          │
+	│  ┌───────────────┐ ┌───────────────┐  ┌───────────────┐  │
+	│  │ Container OS  │ │ Container OS  │  │ Container OS  │  │
+	│  │   (Ubuntu)    │ │   (Ubuntu)    │  │   (Ubuntu)    │  │
+	│  │ ┌───────────┐ │ │ ┌───────────┐ │  │ ┌───────────┐ │  │
+	│  │ │ Couchbase │ │ │ │ Couchbase │ │  │ │ Couchbase │ │  │
+	│  │ │  Server   │ │ │ │  Server   │ │  │ │  Server   │ │  │
+	│  │ └───────────┘ │ │ └───────────┘ │  │ └───────────┘ │  │
+	│  └───────────────┘ └───────────────┘  └───────────────┘  │
+	└──────────────────────────────────────────────────────────┘
+
 
 8. The body section is the primary section of the web page.
 
