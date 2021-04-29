@@ -136,3 +136,23 @@ We will start with information and notes from both the Video Tutorials reference
 
 	</body>
 	```
+	* The ```<body>``` element defines the document's body.
+	* Then, inside the ```<body>``` element there are two other elements: ```<h1>``` and ```<p>``` as seen here:
+	```
+	<h1>My First Heading</h1>
+		<p>My first paragraph.</p>
+	```
+
+
+#### Never Skip the End Tag
+
+23. Some HTML elements will display correctly, even if you forget the end tag:
+	```
+	<p>This is a paragraph
+	```
+	* However, never rely on this! Unexpected results and errors may occur if you forget the end tag!
+	* For a complete list of all available HTML tags, visit W3School's [HTML Tag Reference](https://www.w3schools.com/tags/default.asp).
+
+
+#### Conclusion
+This concludes Part 2 of the Notes on HTML5 Coursework for the Video Course and information from [W3Schools.com](https://www.w3schools.com/). Please move on to the next document [HTML-NOTES-PT-2.md](https://github.com/AdamRj-765/W3School-0005/blob/branch-210426T2301/COURSE_NOTES/HTML5-NOTES-PT-2.md).
