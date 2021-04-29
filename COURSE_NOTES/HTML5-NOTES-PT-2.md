@@ -38,6 +38,7 @@ We will start with information and notes from both the Video Tutorials reference
   +------------------------------------------------------------------------------------+
 	```
 
+```
   ┌──────────────────────────────────────────────────────────┐
 	│                     Host OS (Linux)                      │
 	│                                                          │
@@ -50,7 +51,7 @@ We will start with information and notes from both the Video Tutorials reference
 	│  │ └───────────┘ │ │ └───────────┘ │  │ └───────────┘ │  │
 	│  └───────────────┘ └───────────────┘  └───────────────┘  │
 	└──────────────────────────────────────────────────────────┘
-
+```
 
 8. The body section is the primary section of the web page.
 
