@@ -9,6 +9,10 @@ For this project, we will be using GitHub's version control to document the prog
 
 We will start with information and notes from both the Video Tutorials referenced in the README.md for the project and it is recommended that you watch the video referenced in this document as well as reading from the [W3Schools.com's](https://www.w3schools.com/) wonderful HTML Tutorial Course and online reference documents, as well as noting the information in this document.
 
+## Documentation
+
+We will be using GitHub for versioning and [here](https://docs.github.com/en) is the main documentation for using GitHub.
+
 
 ### Video 1
 
