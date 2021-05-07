@@ -3,11 +3,15 @@
 
 ## INTRODUCTION
 
-These notes will provide the information I have compiled and deemed helpful to me in understanding the information given in both the HTML video course provided in the README.md, and from the HTML online tutorials from [W3Schools.com](https://www.w3schools.com/).
+These notes will provide the information compiled and deemed helpful in understanding the information given in both the HTML video course provided in the README.md, and from the HTML online tutorials from [W3Schools.com](https://www.w3schools.com/).
 
-For this project, I am using GitHub's version control to document the progress of the test environment that is needed to  which documents the progress of my understanding of HTML5 custom code development and design. It will be a living document that I will add to and redesign on the fly in order to be a more up to date knowledgebase of the latest HTML language.
+For this project, we will be using GitHub's version control to document the progress of the test environment that is needed, and which documents the progress of our understanding of HTML5 custom code development and design process. It will be a living document that will be added to and redesigned on-the-fly by your instructors in order to be a more up to date knowledgebase of the latest HTML5, CSS3 and JavaScript languages and their standards.
 
-We will start with information and notes from both the Video Tutorials I am watching, and from [W3Schools.com's](https://www.w3schools.com/) wonderful courses and online reference  documents.
+We will start with information and notes from both the Video Tutorials referenced in the README.md for the project and it is recommended that you watch the video referenced in this document as well as reading from the [W3Schools.com's](https://www.w3schools.com/) wonderful HTML Tutorial Course and online reference documents, as well as noting the information in this document.
+
+## Documentation
+
+We will be using GitHub for versioning and [here](https://docs.github.com/en) is the main documentation for using GitHub.
 
 
 ### Video 1
@@ -26,6 +30,35 @@ We will start with information and notes from both the Video Tutorials I am watc
  * HTML consists of a series of elements
  * HTML elements tell the browser how to display the content
  * HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+
+##### A Simple HTML Document
+
+* Example
+
+```
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+
+		<h1>My First Heading</h1>
+		<p>My first paragraph.</p>
+
+	</body>
+</html>
+```
+
+* Example Explained
+	* The ```<!DOCTYPE html>``` declaration defines that this document is an HTML5 document.
+	* The ```<html>``` element is the root element of an HTML page.
+	* The ```<head>``` element contains meta information about the HTML page.
+	* The ```<title>``` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab).
+	* The ```<body>``` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+	* The ```<h1>``` element defines a large heading.
+	* The ```<p>``` element defines a paragraph.
 
 
 ##### The <!DOCTYPE> Declaration
@@ -51,24 +84,24 @@ We will start with information and notes from both the Video Tutorials I am watc
 		* Currently all modern browsers will recognize the ```<!DOCTYPE html>``` declaration as an instruction to use the latest version of HTML and will render the page as such. It will use the latest version of HTML (whatever it is), and will do so for future HTML versions. With the ```<!DOCTYPE html>``` declaration developers no longer need to specify a version number for their HTML source code to the browser.
 
 
-##### The HTML <html> Tag Element
-
-3. The  **HTML** ```<html>``` **Tag** is an **HTML** element, and it is also the *root element* of an HTML page. Although the **HTML** ```<html>``` **Tag** is an **HTML** element itself, it is not the only **HTML** element in a webpage. It is the container for all other **HTML** elements (except for the ```<!DOCTYPE>``` declaration).
-	* There is only one **HTML** ```<html>``` **Tag** on a webpage and the other elements inside the **HTML** ```<html>``` **Tag** element are called **HTML** elements, but they are not *the* **HTML** element. *The* **HTML** that is the *root element* can only occur once in a webpage and needs to be just after the ```<!DOCTYPE>``` declaration.
-	* The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**.
-	* The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage.
-
-
 ##### The lang Attribute
 
-4. The **lang** attribute specifies the language of the element's content. Some common examples are "en" for English, "es" for Spanish, "fr" for French, and so on.
+3. The **lang** attribute specifies the language of the element's content. Some common examples are "en" for English, "es" for Spanish, "fr" for French, and so on.
 	* The *lang* attribute should be just after the ```<!DOCTYPE>``` declaration and you should always include the *lang* attribute inside the ```<html>``` tag, to declare the language of the Web page. This is meant to assist search engines and browsers. The following code shows how to reference the English language using the *lang* attribute inside the ```<html>``` tag:
 	```
 	<html lang="en">
 	```
 
 
-##### HTML Elements
+##### The HTML <html> Tag Element
+
+4. The  **HTML** ```<html>``` **Tag** is an **HTML** element, and it is also the *root element* of an HTML page. Although the **HTML** ```<html>``` **Tag** is an **HTML** element itself, it is not the only **HTML** element in a webpage. It is the container for all other **HTML** elements (except for the ```<!DOCTYPE>``` declaration).
+	* There is only one **HTML** ```<html>``` **Tag** on a webpage and the other elements inside the **HTML** ```<html>``` **Tag** element are called **HTML** elements, but they are not *the* **HTML** element. *The* **HTML** that is the *root element* can only occur once in a webpage and needs to be just after the ```<!DOCTYPE>``` declaration.
+	* The HTML document itself begins with an ```<html>``` **open tag** and ends with an ```</html>``` **closeing tag**.
+	* The **HTML** open ```<html>``` and closing ```</html>``` tags and the items inside are collectively called an **element** but they are not considered a **section** of the webpage.
+
+
+##### What is an HTML Element?
 
 5. An **HTML** element is defined by a start tag, some content, and an end tag as seen here: ```<tagname>Content goes here...</tagname>``` .
 	* Examples of some HTML elements:
@@ -210,4 +243,4 @@ We will start with information and notes from both the Video Tutorials I am watc
 
 
 #### Conclusion
-This concludes Part 1 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com
+This concludes Part 1 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-2.md](https://github.com/AdamRj-765/W3School-0005/blob/branch-210426T2301/COURSE_NOTES/HTML5-NOTES-PT-2.md).
