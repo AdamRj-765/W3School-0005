@@ -79,18 +79,20 @@ We will start with information and notes from both the Video Tutorials reference
 18. HTML links are defined with the ```<a>``` tag.
 	* An Example:
 	```
-	W3Schools Link click <a href="https://www.w3schools.com">Here</a>
+	<a href="https://www.omni-solutions-tech.com">Omni-Solutions Tec Link</a>
 	```
 	* The link's destination is specified in the ```href``` attribute.
 	* Attributes are used to provide additional information about HTML elements.
 	* You will learn more about attributes in a later chapter.
+
+* Personal Note: Some links are for pages or links to files, images, media, etc. that is local to the web server that is hosting the website you are developing. In this case we would not need a full URL for the ``` <a href=" "``` value.  See the Personal notes on External Links and Local Links in [HTML5-NOTES-PT3.md]()
 
 
 ###### HTML Images
 19. HTML images are defined with the ```<img>``` tag.
 	* The source file (```src```), alternative text (```alt```), ```width```, and ```height``` are provided as attributes:
 	```
-	<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+	<img src="https://omni-solutions-tech.net/imgs/omni-solutions-banner.jpg" alt="Image of Omni-Solutions Technology Consultants banner" width="1947" height="555">
 	```
 
 #### How to View HTML Source?
