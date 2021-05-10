@@ -85,7 +85,7 @@ We will start with information and notes from both the Video Tutorials reference
 	* Attributes are used to provide additional information about HTML elements.
 	* You will learn more about attributes in a later chapter.
 
-* Personal Note: Some links are for pages or links to files, images, media, etc. that is local to the web server that is hosting the website you are developing. In this case we would not need a full URL for the ``` <a href=" "``` value.  See the Personal notes on External Links and Local Links in [HTML5-NOTES-PT3.md]()
+* Personal Note: Some links are for pages or links to files, images, media, etc. that is local to the web server that is hosting the website you are developing. In this case we would not need a full URL for the ``` <a href=" "``` value.  See the Personal notes on External Links and Local Links in [HTML5-NOTES-PT3.md](https://github.com/AdamRj-765/W3School-0005/blob/20210507T1442Zm6/COURSE_NOTES/HTML5-NOTES-PT-3.md)
 
 
 ###### HTML Images
