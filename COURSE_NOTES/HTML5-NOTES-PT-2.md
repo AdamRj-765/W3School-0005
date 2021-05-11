@@ -87,7 +87,8 @@ We will start with information and notes from both the Video Tutorials reference
 19. HTML images are defined with the `<img>` tag.
 	* The source file (`src`), alternative text (`alt`), `width`, and `height` are provided as attributes:
 	```html
-	<img src="https://omni-solutions-tech.net/imgs/omni-solutions-banner.jpg" alt="Image of Omni-Solutions Technology Consultants banner" width="1947" height="555">
+	<img src="https://omni-solutions-tech.net/imgs/omni-solutions-banner.jpg"
+	alt="Image of Omni-Solutions Technology Consultants banner" width="1947" height="555">
 	```
 
 #### How to View HTML Source?
