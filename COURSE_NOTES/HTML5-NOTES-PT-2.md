@@ -85,8 +85,8 @@ We will start with information and notes from both the Video Tutorials reference
 
 	* Personal Note: Some links are for specific pages or links to files, images, media, etc. that can be local, or located within the file system that the referring page (the page you are creating the link on) is in on the same web server that is hosting the website you are developing.
 	* In this case you do not need to use a full URL for the ` <a href=" "` attribute value.
-	
-	**Example 1**
+
+	* **Example 1**
 		* Here is an example of a link to an external page that is **NOT** included in the site's file system which has a domain name of `omni-solutions-tech.com`. Here the domain name points to the Document Root of the site and is the root folder of the website.
 		* If the referring page (the webpage that we are linking from in this case `index-1.html`), is **IN** the *Document Root* (the website's root folder), and the link is to another page that is **NOT** a page within the file system of the website, we must use the full URL for external website's page we want to link to. This includes the domain name and the path to the file within that domain's file structure such as Google's homepage as seen below:
 			```html
@@ -103,7 +103,7 @@ We will start with information and notes from both the Video Tutorials reference
 			```
 			* Note: The **domain** of the site were linking to is not the same domain as the domain that our referring page is in. Our page is in the Document Root of the domain, `omni-solutions-tech.com`, therefore we MUST use a full URL to link to Google's page. (The `index.html` page is not needed because when going to a domain, the `index.html` page of any site is by default always given first).
 
-	**Example 2**
+	* **Example 2**
 		* Here is an example of a **URL link** to a page that **IS** located in the same site. Normally it would be located in the site's **Document Root** or one of it's subfolders. 	In other words it is not in a parent folder but either the same of one of it's child folders.
 		* If our referring page is in the **Document Root** and the page that we are linking **TO** is in the same directory or a sub-directory of the **Document Root**, then we can link to it in two ways. In the example below, the referring document is the page we are linking **FROM** and we will call it `index-1.html` and the page we will be linking **TO**, which is a page in our site that we will call `index-2.html` located in  the `<document-root>/pages` folder or if it were live it would be located on the web at `https://omni-solutions-tech.com/pages/` If there are more than one webpages in the `/pages/` folder, and since the filename is not `index.html`, then we must name which file we want to link to and in this case the file name is `index-2.html`:
 
