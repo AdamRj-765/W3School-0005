@@ -84,9 +84,9 @@ We will start with information and notes from both the Video Tutorials reference
 	* You will learn more about attributes in a later chapter.
 
 ###### HTML Images
-19. HTML images are defined with the ```<img>``` tag.
-	* The source file (```src```), alternative text (```alt```), ```width```, and ```height``` are provided as attributes:
-	```
+19. HTML images are defined with the `<img>` tag.
+	* The source file (`src`), alternative text (`alt`), `width`, and `height` are provided as attributes:
+	```html
 	<img src="https://omni-solutions-tech.net/imgs/omni-solutions-banner.jpg" alt="Image of Omni-Solutions Technology Consultants banner" width="1947" height="555">
 	```
 
@@ -100,32 +100,31 @@ We will start with information and notes from both the Video Tutorials reference
 
 #### HTML Elements
 
-22. As discussed in *HTML5-NOTES-PT1, Section 5.* An HTML element is defined by a start tag (```<element>```), some content, (This is my content) and an end tag (```</element>```).
+22. As discussed in *HTML5-NOTES-PT1, Section 5.* An HTML element is defined by a start tag (`<element>`), some content, (This is my content) and an end tag (`</element>`).
 	* The HTML element is everything from the start tag to the end tag:
-	```
+	```html
 	<tagname>Content goes here...</tagname>
 	```
 	* Examples of some HTML elements:
-	```
+	```html
 	<h1>My First Heading</h1>
 		<p>My first paragraph.</p>
 	```
 	* Not covered in *Section 5.* and *Section 6.* is an example of how the Nested Elements are represented in the code itself. Here we have an example of a basic HTML page:
-	```
+	```html
 	<!DOCTYPE html>
 	<html>
-		<body>
-
-			<h1>My First Heading</h1>
-				<p>My first paragraph.</p>
-
-		</body>
+	   <body>
+	      <h1>My First Heading</h1>
+	      <p>My first paragraph.</p>
+	    </body>
 	</html>
 	```
+
 	* We know that the <html> element is the root element and it *defines* the whole HTML document.
-	* We should by now already know that it has a start tag ```<html>``` and an end tag ```</html>```
-	* Nested inside the ```<html>``` element there is a ```<body>``` element:
-	```
+	* We should by now already know that it has a start tag `<html>` and an end tag `</html>`
+	* Nested inside the `<html>` element there is a `<body>` element:
+	```html
 	<body>
 
 		<h1>My First Heading</h1>
@@ -133,9 +132,10 @@ We will start with information and notes from both the Video Tutorials reference
 
 	</body>
 	```
-	* The ```<body>``` element defines the document's body.
-	* Then, inside the ```<body>``` element there are two other elements: ```<h1>``` and ```<p>``` as seen here:
-	```
+
+	* The `<body>` element defines the document's body.
+	* Then, inside the `<body>` element there are two other elements: `<h1>` and `<p>` as seen here:
+	```html
 	<h1>My First Heading</h1>
 		<p>My first paragraph.</p>
 	```
@@ -144,7 +144,7 @@ We will start with information and notes from both the Video Tutorials reference
 #### Never Skip the End Tag
 
 23. Some HTML elements will display correctly, even if you forget the end tag:
-	```
+	```html
 	<p>This is a paragraph
 	```
 	* However, never rely on this! Unexpected results and errors may occur if you forget the end tag!
