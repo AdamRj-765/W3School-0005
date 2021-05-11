@@ -31,3 +31,4 @@ We will start with information and notes from both the Video Tutorials reference
 ```
 <img src="img_girl.jpg">
 ```
+* Personal Note: ```src``` attributes for images can be an external link as well as internal or local links or locally hosted link. With external links, the ```src``` attribute will be a URL. Although you can still use the URL for the file your calling in the link, you have to treat the URI differently  
