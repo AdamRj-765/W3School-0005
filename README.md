@@ -24,13 +24,17 @@ Our project's name (**"W3School-0005"**) attempts to infer that the source of ou
 
 * The **Version Control System** we will be using to manage our local repositories for this course is called **GitHub Desktop** (latest version) available [here](https://desktop.github.com/), and the recommended text editor we will be using is called **Atom** latest version which is available [here](https://atom.io/). Please download these two applications for your development system when you are ready to begin the project. You will also need to create a [GitHub.com](https://github.com/) account and have access to your profile before beginning the project goals.
 
-The code and versioning training process will take the student through the steps of creating code in the versioning test environment but not in the Version Control processes themselves because that is covered in a different training process where the repository creation and control of the version will be the focus.
+* The code and versioning training process will be addressed as separate documentation from the HTML beginner developer notes located in the [COURSE_NOTES](https://github.com/AdamRj-765/W3School-0005/tree/master/COURSE_NOTES) folder of the project.
+* The steps of creating code in the versioning test environment are designed to be in a vanilla setting so that a student learning from this project can clone the repository, and edit the HTML files inside the `public_html` folder to test the processes outlined in the `HTML5-NOTES` document but not to merge their changes to the branch in **ANY WAY**.
 
-This project focuses on providing an example of how to track HTML development changes to Markup Documents in a website, the folder structures involved and the correct way to use a version control system to track those changes and advances.
+* The Version Control processes themselves are separate from the HTML5 documents and are covered in a different training process where the repository creation and control of the version will be the focus.
+
+* This project also strives to provide an example of how to track HTML development changes to a website, the folder structures involved, and the correct way we at **Omni-Solutions Tech** prefer to use a **Version Control System** to track those changes and advances in a collaborative development project.
 
 
 ### Graphical Map of the Development File System Tree
-Below you will fine the a-typical file structure of our website that is to be developed:
+
+Below you will fine the a-typical file structure of our website that is to be developed plus a few extra training notes and some index templates:
 (Note: This structure will be edited as the project progresses)
 
 ```
@@ -39,28 +43,38 @@ W3School-0005/
 ├── COURSE_NOTES/
 |   ├── HTML5-NOTES-PT-1.md
 |   ├── HTML5-NOTES-PT-2.md
-|   └── MARKDOWN_CHEAT.md
+|   ├── HTML5-NOTES-PT-3.md
+|   ├── HTML5-NOTES-PT-4.md
+|   ├── MARKDOWN_CHEAT-0005.md
+|   ├── MARKDOWN_CHEAT.md
+|   └── Test.md
 ├── public_html/
+|   ├── pages/
+|   |   └── index-2.html
 |   └── index.html
 ├── public_html_templates/
-|   ├── default_w3c_index.html
 |   ├── default_w3c_index-0005.html
 |   ├── default_w3c_index-0010.html
 |   ├── default_w3c_index-0015.html
 |   ├── default_w3c_index-0020.html
 |   ├── default_w3c_index-0025.html
+|   ├── default_w3c_index.html
 |   ├── default_w3c_refreshes_index-0030.html
-|   └── default_w3c_responsive_index-0005.html
+|   ├── default_w3c_responsive_index-0005.html
+|   ├── index-3.html
+|   └── template-index-w3c-pro-0030.html
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE.md
-└── README.md
+└── README.md    <------------ (You Are Here!) ---------------
 ```
 
 This is the current file structure of the project.
 
-This HTML 5 course follows the video classes that are included in the YouTube Video Playlist at this URL:
-## HTML Tutorial for Beginners
-https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB
 
-It does not attempt to plagiarize or claim that any notes taken are products of our team or it's educators or collaborative discussions and all copied materials that resemble or are exact copies of their copyrighted works or content are purely for educational purposes and solely the property of the owners of such materials and **NOT** the property of [Omni-Solutions Tech](https://www.omni-solutions-tech.com/)
+### HTML Tutorial for Beginners - Glossary of Sources
+
+* The [HTML Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB) YouTube Video Playlist.
+* The [W3Schools HTML Tutorial](https://www.w3schools.com/html/html_intro.asp)
+
+The work and notes taken for this project do not attempt to plagiarize or claim that any excerpts used are products of our team or it's educators collaborative discussions and training materials and are purely for educational use. Any and all copied materials that resemble or are exact copies of any copyrighted works or content are purely for educational purposes and solely the property of the owners of such materials and **NOT** the property of [Omni-Solutions Tech](https://www.omni-solutions-tech.com/). We thank W3Schools.com for your understanding and your partial source of information in our educational needs.
