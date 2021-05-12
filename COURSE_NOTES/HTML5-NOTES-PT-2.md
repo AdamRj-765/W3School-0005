@@ -82,3 +82,6 @@ We will start with information and notes from both the Video Tutorials reference
 	* The link's destination is specified in the `href` attribute.
 	* Attributes are used to provide additional information about HTML elements.
 	* You will learn more about attributes in a later chapter.
+
+	#### Conclusion
+This concludes Part 2 of the Notes on HTML5 Coursework for the Video Course and information from [W3Schools.com](https://www.w3schools.com/). Please move on to the next document [HTML-NOTES-PT-2.md](https://github.com/AdamRj-765/W3School-0005/blob/branch-210426T2301/COURSE_NOTES/HTML5-NOTES-PT-3.md).
