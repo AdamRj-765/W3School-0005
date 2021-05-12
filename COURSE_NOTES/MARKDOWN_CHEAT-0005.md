@@ -196,6 +196,130 @@ W3School-0005/
 └── README.md
 ```
 
+
+
+<pre>
+.
++-- _config.yml
++-- _drafts
+|   +-- begin-with-the-crazy-ideas.textile
+|   +-- on-simplicity-in-technology.markdown
++-- _includes
+|   +-- footer.html
+|   +-- header.html
++-- _layouts
+|   +-- default.html
+|   +-- post.html
++-- _posts
+|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
++-- _data
+|   +-- members.yml
++-- _site
++-- index.html
+</pre>
+
+
+
+```
+project
+│   README.md
+│   file001.txt    
+│
+└───folder1
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───subfolder1
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+│   
+└───folder2
+    │   file021.txt
+    │   file022.txt
+```
+
+
+📦quakehunter
+ ┣ 📂client
+ ┣ 📂node_modules
+ ┣ 📂server
+ ┃ ┗ 📜index.js
+ ┣ 📜.gitignore
+ ┣ 📜package-lock.json
+ ┗ 📜package.json
+
+
+
+
+.. code::
+.
+|-- ContentStore
+|   |-- de-DE
+|   |   |-- art.mshc
+|   |   |-- artnoloc.mshc
+|   |   |-- clientserver.mshc
+|   |   |-- noarm.mshc
+|   |   |-- resources.mshc
+|   |   `-- windowsclient.mshc
+|   `-- en-US
+|       |-- art.mshc
+|       |-- artnoloc.mshc
+|       |-- clientserver.mshc
+|       |-- noarm.mshc
+|       |-- resources.mshc
+|       `-- windowsclient.mshc
+`-- IndexStore
+    |-- de-DE
+    |   |-- art.mshi
+    |   |-- artnoloc.mshi
+    |   |-- clientserver.mshi
+    |   |-- noarm.mshi
+    |   |-- resources.mshi
+    |   `-- windowsclient.mshi
+    `-- en-US
+        |-- art.mshi
+        |-- artnoloc.mshi
+        |-- clientserver.mshi
+        |-- noarm.mshi
+        |-- resources.mshi
+        `-- windowsclient.mshi
+
+
+root
+├── dir1
+│   └── file1
+└── dir2
+    └── file2
+
+```
+<pre>
+.
+&#8866; README.md
+&#8866; docs
+&#8866; e2e
+&#8866; karma.conf.js
+&#8866; node_modules
+&#8866; package.json
+&#8866; protractor.conf.js
+&#8866; src
+&#8866; tsconfig.json
+&#8985; tslint.json
+</pre>
+
+```
+
+
+
+
+* [HERE](https://stackoverflow.com/questions/19699059/representing-directory-file-structure-in-markdown-syntax) is an excelent document on this subject of file system trees.
+
+
+
+
+
+
 * Here is a chart sowing a diagram of basic webpage:
 
 ```
@@ -231,6 +355,46 @@ W3School-0005/
 Here is
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+
+
+* Links on the same page:
+* And [HERE](https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown?rq=1) for more on links
+
+* Github automatically parses anchor tags out of your headers. So you can do the following:
+
+```markdown
+[Custom foo description](#foo)
+
+# Foo
+```
+* In the above case, the Foo header has generated an anchor tag with the name foo
+
+Note: just one # for all heading sizes, no space between # and anchor name, anchor tag names must be lowercase, and delimited by dashes if multi-word.
+
+```markdown
+[click on this link](#my-multi-word-header)
+
+### My Multi Word Header
+```
+
+* Experimenting, I found a solution using <div…/> but an obvious solution is to place your own anchor point in the page wherever you like, thus:
+```html
+<a name="abcde">
+```
+ *line you want to link to*
+```html
+</a>
+```
+Then link to this part of the page with:
+
+```markdown
+[link text](#abcde)
+```
+
+
+
+
 
 
 
