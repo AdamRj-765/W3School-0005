@@ -3,11 +3,13 @@
 
 ## INTRODUCTION
 
-These notes will provide the information compiled and deemed helpful in understanding the information given in both the HTML video course provided in the README.md, and from the HTML online tutorials from [W3Schools.com](https://www.w3schools.com/).
+These notes will provide the information compiled and deemed helpful in understanding the information given in both the [HTML Video]() course provided in the README.md, and from the HTML online tutorials from [W3Schools.com](https://www.w3schools.com/).
 
-For this project, we will be using GitHub's version control to document the progress of the test environment that is needed, and which documents the progress of our understanding of HTML5 custom code development and design process. It will be a living document that will be added to and redesigned on-the-fly by your instructors in order to be a more up to date knowledgebase of the latest HTML5, CSS3 and JavaScript languages and their standards.
+For this project, we will be using [GitHub](https://github.com/)'s **Version Control** to document the progress of our understanding of HTML development by creating better notes than the W3Schools.com site provides and from other sources including the video we reference in the project's README.md  notes located in the [COURSE_NOTES](https://github.com/AdamRj-765/W3School-0005/tree/master/COURSE_NOTES) folder as well as our HTML test environment site files located in the [public_html](https://github.com/AdamRj-765/W3School-0005/tree/master/public_html) folder. This process of versioning our progress in the test environment is essential for us to see changes to the initial dev environments there fore the test environment should not be merged.
+This is done by keeping the branches that are labeled as `dev-...`. Those branches deal with the changes in the coding of the page and should be kept for reference and are needed to document the progress of our understanding of HTML5 custom code development and design process.
+The attached notes in the [COURSE_NOTES](https://github.com/AdamRj-765/W3School-0005/tree/master/COURSE_NOTES) folder will be a continuously edited living set of documents that serve as a more complete reference to HTML development than either of our two main sources listed above.
 
-We will start with information and notes from both the Video Tutorials referenced in the README.md for the project and it is recommended that you watch the video referenced in this document as well as reading from the [W3Schools.com's](https://www.w3schools.com/) wonderful HTML Tutorial Course and online reference documents, as well as noting the information in this document.
+We will start with information and notes taken from both the Video Tutorials referenced in the README.md for this project, and the [W3Schools.com's Beginner's HTML Tutorial](https://www.w3schools.com/html/default.asp) located here: `https://www.w3schools.com/html/default.asp`.
 
 ## Documentation
 
