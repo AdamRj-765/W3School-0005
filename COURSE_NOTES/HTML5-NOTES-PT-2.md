@@ -74,7 +74,7 @@ We will start with information and notes from both the Video Tutorials reference
 
 
 ##### HTML Links
-18. HTML links are defined with the `<a>` tag.
+18. HTML links are defined with the `<a>` tag..
 	* An Example:
 	```html
 	<a href="https://www.omni-solutions-tech.com">Omni-Solutions Tec Link</a>
