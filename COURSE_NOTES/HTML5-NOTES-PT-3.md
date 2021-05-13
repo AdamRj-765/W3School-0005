@@ -29,7 +29,7 @@ We will start with information and notes from both the Video Tutorials reference
 27. The src Attribute
 	* The `<img>` tag is used to embed an image in an HTML page. The `src` attribute specifies the path to the image to be displayed:
 	```html
-	<img src="img_girl.jpg">
+	<img src="image-1.jpg">
 	```
 	* There are two ways to specify the URL in the `src` attribute:
 		1. **Absolute URL** - Links to an external image that is hosted on another website. Example: src="https://www.omni-solutions-tech.com/imgs/omni-solutions-banner.jpg".
