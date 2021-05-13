@@ -76,5 +76,7 @@ This is the current file structure of the project.
 
 * The [HTML Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB) YouTube Video Playlist.
 * The [W3Schools HTML Tutorial](https://www.w3schools.com/html/html_intro.asp)
+* For the versioning part of the training, we will soon be using GitHub's documentation on how to properly use GitHub we will also be using [GitHub Docs](https://docs.github.com/en).
+* Markdown is the document writing process we use and references to this language and how to make documents that use markdown can be found in two places. Our **MARKDOWN_CHEAT.md** document and our more useful non-standard **MARKDOWN_NOTES.md**. These two documents are found in the **COURSE_NOTES** folder.
 
 The work and notes taken for this project do not attempt to plagiarize or claim that any excerpts used are products of our team or it's educators collaborative discussions and training materials and are purely for educational use. Any and all copied materials that resemble or are exact copies of any copyrighted works or content are purely for educational purposes and solely the property of the owners of such materials and **NOT** the property of [Omni-Solutions Tech](https://www.omni-solutions-tech.com/). We thank W3Schools.com for your understanding and your partial source of information in our educational needs.
