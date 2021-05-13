@@ -36,7 +36,7 @@ We will start with information and notes from both the Video Tutorials reference
 		* Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
 		2. **Relative URL** - Links to an image that is hosted within the website. Here, the URL does not include the domain name.
 			* If the URL begins without a slash, it will be relative to the current page. **Example:** `src="img-1.jpg"`.
-			* If the URL begins with a slash, it will be relative to the domain. **Example:** `src="/imgs/image-1.jpg"`.
+			* If the URL begins with a slash, it will be relative to the domain. **Example:** `src="/imags/image-1.jpg"`.
 		* Tip: It is almost always best to use relative URLs. They will not break if you change domain.
 
 		* Let us say that during a development test on a local PC, we need to link to an image from our **Main Page**, **Homepage**, or any page you may be linking from that is in our test website.
