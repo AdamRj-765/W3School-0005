@@ -35,14 +35,14 @@ These notes are taken from the two sources listed but also add some information 
 ```html
 <!DOCTYPE html>
   <html>
-    <head>
-      <title>Page Title</title>
-    </head>
-    <body>
-      <h1>My First Heading</h1>
-      <p>My first paragraph.</p>
-   </body>
-</html>
+     <head>
+       <title>Page Title</title>
+     </head>
+     <body>
+       <h1>My First Heading</h1>
+       <p>My first paragraph.</p>
+     </body>
+  </html>
 ```
 
 * Example Explained
@@ -237,4 +237,4 @@ These notes are taken from the two sources listed but also add some information 
 
 
 #### Conclusion
-This concludes Part 1 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-2.md](https://github.com/AdamRj-765/W3School-0005/blob/branch-210426T2301/COURSE_NOTES/HTML5-NOTES-PT-2.md).
+This concludes Part 1 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-2.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-2.md).
