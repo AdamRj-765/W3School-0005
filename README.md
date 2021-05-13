@@ -18,7 +18,7 @@ This Project's [README.md](https://github.com/AdamRj-765/W3School-0005/blob/mast
 
 ### Mission
 
-* This project will not only endeavor to provide **Basic to Advanced Web Development** training in **HTML5**, **CSS3**, and **JavaScript (ES9 or ECMAScript 2018)** through it's comprehensive **HTML5-NOTES-PT-#.md** files, and it's examples of core HTML development file system examples, but will also show trainees/coders how to implement an effective collaborative development environment using GitHub's **Version Control System** or *"Versioning"* process as it pertains to web development. In this case, the collaborative environment of [GitHub's](https://github.com/) *online* **Version Control System** is ideal for our project needs, and this project attempts to demonstrate how to use it to document the progress of our understanding of HTML5 and it's development processes.
+This project will not only endeavor to provide **Basic to Advanced Web Development** training in **HTML5**, **CSS3**, and **JavaScript (ES9 or ECMAScript 2018)** through it's comprehensive **HTML5-NOTES-PT-#.md** files, and it's examples of core HTML development file system examples, but will also show trainees/coders how to implement an effective collaborative development environment using GitHub's **Version Control System** or *"Versioning"* process as it pertains to web development. In this case, the collaborative environment of [GitHub's](https://github.com/) *online* **Version Control System** is ideal for our project needs, and this project attempts to demonstrate how to use it to document the progress of our understanding of HTML5 and it's development processes.
 
 * Project **W3School-0005** is the first in a series of internal *Web Development Coursework Projects* which offer an education in W3C compliant *in-house* training familiarity with **Basic to Advanced Web Development**.
 
@@ -48,7 +48,10 @@ This project is designed for [Omni-Solutions Tech](https://www.omni-solutions-te
 ### Resource Requirements
 
 * The **Version Control System Application** we will be using to manage our local repositories for this course is called **GitHub Desktop** (latest version) available free for download **[here](https://desktop.github.com/)**.
-* The recommended text editor we will be using is called **Atom** latest version which is available **[here](https://atom.io/)**. Please download these two applications for your development system when you are ready to begin the project.
+* The recommended text editor we will be using is called **Atom** latest version which is available **[here](https://atom.io/)**.
+
+* Please download these two applications for your development system when you are ready to begin the project.
+
 * You will also need to create a [GitHub.com](https://github.com/) account and have access to your profile before beginning the project goals so you may clone the repository and use the development files.
 
 * As mentioned above this project also strives to provide an example of how to track HTML development changes to a website, the folder structures involved, and the manor in which we at **Omni-Solutions Tech** prefer to use a **Version Control System** to track changes and advances in a collaborative website development project.
@@ -89,6 +92,7 @@ W3School-0005/
 └── README.md    <------------ (You Are Here!) ---------------
 ```
 
+### Web Development File System
 Below shows the part of the project that is a *bare-bones* file structure of our test website, and which shows **ONLY** the files included in an a-typical Website file system structure:
 
 ```
@@ -110,12 +114,12 @@ The notes located in the [COURSE_NOTES](https://github.com/AdamRj-765/W3School-0
 
 * This process of versioning our progress in the test environment is essential for us to see changes to the initial dev environments therefore the test environment should **NOT** be merged by any students.
 
-* However showing the progress of the web page from a beginning basic *bare-bones* index page and site files can be tracked by students if the Project Admins keep **ONLY** the branches that are labeled as `dev-...`so that the project can be observed in it's progress by accessing those branches instead of the master branch.
+* However, showing the progress of the web page from a beginning basic *bare-bones* index page and site files can be tracked by students if the Project Admins keep **ONLY** the branches that are labeled as `dev-...`so that the project can be observed in it's progress by accessing those branches instead of the master branch.
 
 * Those branches deal with the changes in the coding of the page and should be kept for reference because they are needed to document the progress of our understanding of HTML5 custom code development and design process through the NOTES and the site files. Please do **NOT** merge or delete them.
 
 
-We will start with information and notes taken from both the Video Tutorials referenced in the README.md for this project, and the [W3Schools.com's Beginner's HTML Tutorial](https://www.w3schools.com/html/default.asp) located here: `https://www.w3schools.com/html/default.asp`.
+We will start with information and notes taken from both the Video Tutorials for this project, and the [W3Schools.com's Beginner's HTML Tutorial](https://www.w3schools.com/html/default.asp) located here: `https://www.w3schools.com/html/default.asp`. However, there is no need to view either of these sources as the project requirements will start with the notes given in the **COURSE_NOTES** folder (see below).
 
 
 Let's get started shall we?  Please click on this link to the first [HTML5-NOTES-PT-1.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-1.md) after you have completed downloading and installing the required development applications listed in the [Resource Requirements](#resource-requirements) section of this page.
