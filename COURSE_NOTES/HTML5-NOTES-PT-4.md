@@ -1,27 +1,6 @@
+# W3School-0005 Video Notes Pt 4
 
 
+## INTRODUCTION
 
-
-
-# Test
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-See the Personal notes on External Links and Local Links in [HTML5-NOTES-PT3.md](https://github.com/AdamRj-765/W3School-0005/blob/20210507T1442Zm6/COURSE_NOTES/HTML5-NOTES-PT-3.md)
-
-* Note: The content inside the <body> section (the white area above) will be displayed in a browser. The content inside the ```<title>``` element will be shown in the browser's title bar or in the page's tab.
+These notes will provide the information compiled and deemed helpful in understanding the information given in both the [HTML Video Playlist](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB) listed in the project's README.md, and from the HTML online tutorials from [W3Schools.com](https://www.w3schools.com/).
