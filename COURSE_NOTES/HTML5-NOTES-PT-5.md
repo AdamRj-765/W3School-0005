@@ -10,7 +10,7 @@ These notes will provide the information compiled and deemed helpful in understa
 
 ### HTML Attribute Reference
 
-
+A complete list of all attributes for each HTML element, is listed in our: [HTML Attribute Reference](https://www.w3schools.com/tags/ref_attributes.asp).
 
 
 
