@@ -59,3 +59,17 @@ These notes will provide the information compiled and deemed helpful in understa
     </body>
  </html>
  ```
+ * Country codes can also be added to the language code in the `lang` attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+ * The following example specifies English as the language and United States as the country:
+ ```html
+ <!DOCTYPE html>
+ <html lang="en-US">
+    <head>
+       <meta charset="utf-8"/>
+       <title>Index-1 Page </title>
+    </head>
+    <body>
+       <img src="images/image-1.jpg" alt="Omni-Solutions Tech">
+    </body>
+ </html>
+ ```
