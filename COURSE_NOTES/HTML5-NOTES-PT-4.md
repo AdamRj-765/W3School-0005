@@ -73,3 +73,58 @@ These notes will provide the information compiled and deemed helpful in understa
     </body>
  </html>
  ```
+
+### The title Attribute
+
+ The `title` attribute defines some extra information about an element.
+ * The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+ ```html
+ <p title="I'm a tooltip">This is a paragraph.</p>
+ ```
+
+### We Suggest: Always Use Lowercase Attributes
+ The HTML standard does not require lowercase attribute names.
+ * The title attribute (and all other attributes) can be written with uppercase or lowercase like **title** or **TITLE**.
+ * However, W3C **recommends** lowercase attributes in HTML, and **demands** lowercase attributes for stricter document types like XHTML.
+
+### We Suggest: Always Quote Attribute Values
+
+ The HTML standard does not require quotes around attribute values.
+ * However, W3C **recommends** quotes in HTML, and **demands** quotes for stricter document types like XHTML.
+ * **Good:**
+ ```html
+ <a href="https://www.omni-solutions-tech.com/html/">Visit our HTML tutorial</a>
+ ```
+ * **Bad:**
+ ```html
+ <a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
+ ```
+ * Sometimes you have to use quotes. This example will not display the title attribute correctly, because it contains a space:
+ ```html
+ <p title=About W3Schools>
+ ```
+### Single or Double Quotes?
+
+ Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+ * In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+ ```html
+ <p title='John "ShotGun" Nelson'>
+ ```
+ * Or vice versa:
+ ```html
+ <p title="John 'ShotGun' Nelson">
+ ```
+
+### Chapter Summary
+
+ * All HTML elements can have **attributes**
+ * The `href` attribute of `<a>` specifies the URL of the page the link goes to
+ * The `src` attribute of `<img>` specifies the path to the image to be displayed
+ * The `width` and `height` attributes of `<img>` provide size information for images
+ * The `alt` attribute of `<img>` provides an alternate text for an image
+ * The `style` attribute is used to add styles to an element, such as color, font, size, and more
+ * The `lang` attribute of the `<html>` tag declares the language of the Web page
+ * The `title` attribute defines some extra information about an element
+
+#### Conclusion
+This concludes Part 3 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-5.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-5.md).
