@@ -62,6 +62,14 @@ W3Schools' tag reference contains additional information about these tags and th
 | &lsaquo; body &rsaquo;      | 	Defines the document's body |
 | &lsaquo; h1 &rsaquo; to &lsaquo; h6 &rsaquo; | Defines HTML headings |
 
+```
+| Tag        | Description |
+| ------------- |:-------------:| -----:|
+| &lsaquo; html &rsaquo;     | 	Defines the root of an HTML document |
+| &lsaquo; body &rsaquo;      | 	Defines the document's body |
+| &lsaquo; h1 &rsaquo; to &lsaquo; h6 &rsaquo; | Defines HTML headings |
+```
+
  * For a complete list of all available HTML tags, visit our [HTML Tag Reference](https://www.w3schools.com/tags/default.asp).
 
 
