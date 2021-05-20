@@ -124,16 +124,47 @@ The `<hr>` tag defines a thematic break in an HTML page, and is most often displ
 ### HTML Line Breaks
 
 The HTML `<br>` element defines a line break.
+ * Use <br> if you want a line break (a new line) without starting a new paragraph:
+ * Example
+ ```html
+ <p>This is<br>a paragraph<br>with line breaks.</p>
+ ```
+ The `<br>` tag is an empty tag, which means that it has no end tag.
 
+### The Poem Problem
+This poem will display on a single line:
+ ```html
+ <p>
+  My Bonnie lies over the ocean.
 
+  My Bonnie lies over the sea.
 
+  My Bonnie lies over the ocean.
 
+  Oh, bring back my Bonnie to me.
+</p>
+```
 
+#### Solution - The HTML <pre> Element
+The HTML `<pre>` element defines preformatted text.
+ * The text inside a `<pre>` element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+ ```html
+ <pre>
+  My Bonnie lies over the ocean.
 
+  My Bonnie lies over the sea.
 
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+```
+### HTML Tag Reference
+W3Schools' tag reference contains additional information about HTML elements and their attributes.
+ * For a complete list of all available HTML tags, visit our [HTML Tag Reference](https://www.w3schools.com/tags/default.asp).
 
 
 
 
 #### Conclusion
-This concludes Part 3 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-5.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-5.md).
+This concludes Part 3 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-6.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-6.md).
