@@ -63,6 +63,11 @@ W3Schools' tag reference contains additional information about these tags and th
  | git diff     | git diff       | git diff      |
 
 
+ | Tag  | Description |
+ | :---         |     :---:      |          ---: |
+ | &lsaquo; html &rsaquo;   | Defines the root of an HTML document     |
+ | &lsaquo; body &rsaquo;     | Defines the document's body       |
+ | &lsaquo; h1 &rsaquo; to &lsaquo; h6 &rsaquo;     | Defines HTML headings       |
 
 
 
