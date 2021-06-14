@@ -56,15 +56,15 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 
 W3Schools' tag reference contains additional information about these tags and their attributes.
 
-| Tag        | Description |
+ | Tag        | Description |
 
-| :---         |     :---:      |          ---: |
+ | :---         |     :---:      |          ---: |
 
-| &lsaquo; html &rsaquo;     | 	Defines the root of an HTML document |
+ | &lsaquo; html &rsaquo;     | 	Defines the root of an HTML document |
 
-| &lsaquo; body &rsaquo;      | 	Defines the document's body |
+ | &lsaquo; body &rsaquo;      | 	Defines the document's body |
 
-| &lsaquo; h1 &rsaquo; to &lsaquo; h6 &rsaquo; | Defines HTML headings |
+ | &lsaquo; h1 &rsaquo; to &lsaquo; h6 &rsaquo; | Defines HTML headings |
 
 ```
 | Tag                         | Description                            |
