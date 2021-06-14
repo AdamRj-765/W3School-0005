@@ -57,11 +57,6 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 W3Schools' tag reference contains additional information about these tags and their attributes.
 
 
- | Left-aligned | Center-aligned | Right-aligned |
- | :---         |     :---:      |          ---: |
- | git status   | git status     | git status    |
- | git diff     | git diff       | git diff      |
-
 
  | Tag  | Description |
  | :---         |          ---: |
