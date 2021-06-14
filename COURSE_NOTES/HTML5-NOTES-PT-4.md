@@ -1,3 +1,4 @@
+
 # W3School-0005 Video Notes Pt 4
 
 
@@ -125,6 +126,18 @@ These notes will provide the information compiled and deemed helpful in understa
  * The `style` attribute is used to add styles to an element, such as color, font, size, and more
  * The `lang` attribute of the `<html>` tag declares the language of the Web page
  * The `title` attribute defines some extra information about an element
+
+#### Links to W3School's Reference Documents and Further Reading
+
+* [HTML Element Reference](https://www.w3schools.com/tags/default.asp)
+* [HTML Links](https://www.w3schools.com/html/html_links.asp)
+* [HTML Images](https://www.w3schools.com/html/html_images.asp)
+* [HTML Styles](https://www.w3schools.com/html/html_styles.asp)
+* [HTML Language Code Reference](https://www.w3schools.com/tags/ref_language_codes.asp)
+* [HTML <img> Tag](https://www.w3schools.com/tags/tag_img.asp)
+* [W3Schools Exercises](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_styles2)
+
+
 
 #### Conclusion
 This concludes Part 3 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-5.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-5.md).
