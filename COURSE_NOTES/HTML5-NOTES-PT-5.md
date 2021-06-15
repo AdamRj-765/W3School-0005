@@ -77,7 +77,9 @@ A paragraph always starts on a new line, and is usually a block of text.
  <p>This is a paragraph.</p>
  <p>This is another paragraph.</p>
  ```
- * HTML Display - You cannot be sure how HTML will be displayed.
+### HTML Display
+
+ * You cannot be sure how HTML will be displayed.
  * Large or small screens, and resized windows will create different results.
  * With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
  * The browser will automatically remove any extra spaces and lines when the page is displayed:
@@ -140,6 +142,7 @@ This poem will display on a single line:
 ```
 
 #### Solution - The HTML <pre> Element
+
 The HTML `<pre>` element defines preformatted text.
  * The text inside a `<pre>` element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
  ```html
@@ -155,6 +158,17 @@ The HTML `<pre>` element defines preformatted text.
 ```
 ### HTML Tag Reference
 W3Schools' tag reference contains additional information about HTML elements and their attributes.
+
+
+  | Tag  | Description |
+  | :---         |          ---: |
+  | `<p>`   | Defines a paragraph     |
+  | `<hr>`     | Defines a thematic change in the content       |
+  | `<br>` to `<h6>`     | Inserts a single line break       |
+  | `<pre>`     | Defines pre-formatted text       |
+
+
+
  * For a complete list of all available HTML tags, visit our [HTML Tag Reference](https://www.w3schools.com/tags/default.asp).
 
 
