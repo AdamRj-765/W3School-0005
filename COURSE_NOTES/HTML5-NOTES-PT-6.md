@@ -70,8 +70,19 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  </html>
  ```
 
+### Fonts
 
-
+ The CSS `font-family` property defines the font to be used for an HTML element:
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <h1 style="font-family:verdana;">This is a heading</h1>
+   <p style="font-family:courier;">This is a paragraph.</p>
+ </body>
+ </html>
+ ```
 
 
 
