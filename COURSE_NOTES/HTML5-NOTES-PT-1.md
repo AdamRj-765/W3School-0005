@@ -36,13 +36,13 @@ These notes are taken from the two sources listed but also add some information 
 ```html
 <!DOCTYPE html>
   <html>
-     <head>
-       <title>Page Title</title>
-     </head>
-     <body>
-       <h1>My First Heading</h1>
-       <p>My first paragraph.</p>
-     </body>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+  </body>
   </html>
 ```
 

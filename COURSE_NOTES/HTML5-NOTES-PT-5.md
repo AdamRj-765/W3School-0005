@@ -16,23 +16,23 @@ A complete list of all attributes for each HTML element, is listed in W3School's
 ### HTML Headings
 
 HTML headings are titles or subtitles that you want to display on a webpage.
- * Example
+ * Example:
  ```html
  <!DOCTYPE html>
  <html lang="en-US">
 
  <head>
-    <meta charset="utf-8" />
-    <title>Test Formatting Index</title>
+   <meta charset="utf-8" />
+   <title>Test Formatting Index</title>
  </head>
 
  <body>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+   <h1>Heading 1</h1>
+   <h2>Heading 2</h2>
+   <h3>Heading 3</h3>
+   <h4>Heading 4</h4>
+   <h5>Heading 5</h5>
+   <h6>Heading 6</h6>
  </body>
 
  </html>

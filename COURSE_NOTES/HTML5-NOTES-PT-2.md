@@ -106,16 +106,16 @@ These notes will provide the information compiled and deemed helpful in understa
 	* Examples of some HTML elements:
 	```html
 	<h1>My First Heading</h1>
-		<p>My first paragraph.</p>
+	  <p>My first paragraph.</p>
 	```
 	* Not covered in *Section 5.* and *Section 6.* is an example of how the Nested Elements are represented in the code itself. Here we have an example of a basic HTML page:
 	```html
 	<!DOCTYPE html>
 	<html>
-	   <body>
-	      <h1>My First Heading</h1>
-	      <p>My first paragraph.</p>
-	    </body>
+	<body>
+	  <h1>My First Heading</h1>
+	  <p>My first paragraph.</p>
+	</body>
 	</html>
 	```
 
@@ -124,10 +124,8 @@ These notes will provide the information compiled and deemed helpful in understa
 	* Nested inside the `<html>` element there is a `<body>` element:
 	```html
 	<body>
-
-		<h1>My First Heading</h1>
-			<p>My first paragraph.</p>
-
+	  <h1>My First Heading</h1>
+	  <p>My first paragraph.</p>
 	</body>
 	```
 
@@ -135,7 +133,7 @@ These notes will provide the information compiled and deemed helpful in understa
 	* Then, inside the `<body>` element there are two other elements: `<h1>` and `<p>` as seen here:
 	```html
 	<h1>My First Heading</h1>
-		<p>My first paragraph.</p>
+	<p>My first paragraph.</p>
 	```
 
 

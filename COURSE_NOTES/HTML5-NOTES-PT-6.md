@@ -7,10 +7,68 @@
 These notes will provide the information compiled and deemed helpful in understanding the information given in both the [HTML Video Playlist](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB) listed in the project's README.md, and from the HTML online tutorials from [W3Schools.com](https://www.w3schools.com/).
 
 
+### HTML Styles
 
+The HTML `style` attribute is used to add styles to an element, such as color, font, size, and more.
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>I am normal</p>
+   <p style="color:red;">I am red</p>
+   <p style="color:blue;">I am blue</p>
+   <p style="font-size:50px;">I am big</p>
+ </body>
+ </html>
+ ```
+### The HTML Style Attribute
 
+ Setting the style of an HTML element, can be done with the `style` attribute.
+ * The HTML `style` attribute has the following syntax:
+ ```html
+ <tagname style="property:value;">
+ ```
+ * The ***property*** is a CSS property. The ***value*** is a CSS value.
+ * You will learn more about CSS later in this tutorial.
 
+### Background Color
 
+ The CSS `background-color` property defines the background color for an HTML element.
+ * Example #1:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body style="background-color:powderblue;">
+   <h1>This is a heading</h1>
+   <p>This is a paragraph.</p>
+ </body>
+ </html>
+ ```
+
+ * Example #2:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <h1 style="background-color:powderblue;">This is a heading</h1>
+   <p style="background-color:tomato;">This is a paragraph.</p>
+ </body>
+ </html>
+ ```
+
+### Text Color
+ The CSS `color` property defines the text color for an HTML element:
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <h1 style="color:blue;">This is a heading</h1>
+   <p style="color:red;">This is a paragraph.</p>
+ </body>
+ </html>
+ ```
 
 
 
