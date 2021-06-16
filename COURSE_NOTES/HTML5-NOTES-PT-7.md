@@ -1,5 +1,5 @@
 
-# W3School-0005 Video Notes Pt 7
+# W3School-0005 - HTML5 NOTES-PT-7
 
 
 ## INTRODUCTION
@@ -141,5 +141,6 @@ BDO stands for Bi-Directional Override.
 
 
 
+
 #### Conclusion
-This concludes Part 3 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-8.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-8.md).
+This concludes Part 7 of the Notes on HTML5 Coursework for the Video Course and Tutorial information from W3Schools.com. Please move on to the next document [HTML5-NOTES-PT-8.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-8.md).
