@@ -150,9 +150,19 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  - `<sub>` - Subscript text
  - `<sup>` - Superscript text
 
+## HTML <b> and <strong> Elements
 
-
-
+The HTML `<b>` element defines bold text, without any extra importance.
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>This text is normal.</p>
+   <p><b>This text is bold.</b></p>
+ </body>
+ </html>
+ ```
 
 
 
