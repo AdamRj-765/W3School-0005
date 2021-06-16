@@ -394,6 +394,11 @@ Then link to this part of the page with:
 
 
 
+On occasion, I will forget to add the bottom three single backward quote to close a block of code in a markdown document and I notied the following html code will appear:
+
+```html
+<p data-line="179" class="sync-line" style="margin:0;"></p>
+```
 
 
 

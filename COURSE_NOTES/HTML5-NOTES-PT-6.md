@@ -150,7 +150,7 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  - `<sub>` - Subscript text
  - `<sup>` - Superscript text
 
-## HTML <b> and <strong> Elements
+### HTML `<b>` and `<strong>` Elements
 
 The HTML `<b>` element defines bold text, without any extra importance.
  * Example:
@@ -164,7 +164,135 @@ The HTML `<b>` element defines bold text, without any extra importance.
  </html>
  ```
 
+The HTML `<strong>` element defines text with strong importance. The content inside is typically displayed in bold.
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>This text is normal.</p>
+   <p><strong>This text is important!</strong></p>
+ </body>
+ </html>
+ ```
 
+### HTML `<i>` and `<em>` Elements
+
+The HTML `<i>` element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+ * **Tip**: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>This text is normal.</p>
+   <p><i>This text is italic.</i></p>
+ </body>
+ </html>
+ ```
+The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic.
+ * **Tip**: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>This text is normal.</p>
+   <p><em>This text is emphasized.</em></p>
+ </body>
+ </html>
+ ```
+### HTML `<small>` Element
+
+ The HTML `<small>` element defines smaller text:
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>This is some normal text.</p>
+   <p><small>This is some smaller text.</small></p>
+ </body>
+ </html>
+ ```
+
+### HTML `<mark>` Element
+
+The HTML `<mark>` element defines text that should be marked or highlighted:
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>Do not forget to buy <mark>milk</mark> today.</p>
+ </body>
+ </html>
+ ```
+
+### HTML `<del>` Element
+
+The HTML `<del>` element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>My favorite color is <del>blue</del> red.</p>
+ </body>
+ </html>
+ ```
+
+### HTML `<ins>` Element
+
+The HTML `<ins>` element defines a text that has been inserted into a document. Browsers will usually underline inserted text:
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+ </body>
+ </html>
+ ```
+
+### HTML `<sub>` Element
+
+The HTML `<sub>` element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H<sub>2</sub>O:
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>This is <sub>subscripted</sub> text.</p>
+ </body>
+ </html>
+ ```
+
+### HTML `<sup>` Element
+
+The HTML `<sup>` element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW<sup>[1]</sup>:
+ * Example:
+ ```html
+ <!DOCTYPE html>
+ <html>
+ <body>
+   <p>This is <sup>superscripted</sup> text.</p>
+ </body>
+ </html>
+ ```
+
+ | Tag  | Description |
+ | :---        |          ---: |
+ | `<b>`       | Defines bold text     |
+ | `<em>`      | Defines emphasized text        |
+ | `<i>`       | Defines a part of text in an alternate voice or mood       |
+ | `<small>`   | Defines smaller text       |
+ | `<strong>`  | Defines important text       |
+ | `<sub>`     | Defines subscripted text       |
+ | `<sup>`     | Defines superscripted text      |
+ | `<ins>`     | Defines inserted text       |
+ | `<del>`     | Defines deleted text       |
+ | `<mark>`    | Defines marked/highlighted text       |
 
 
 #### Conclusion
