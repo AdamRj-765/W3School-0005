@@ -26,11 +26,13 @@ You can add comments to your HTML source by using the following syntax:
  ```html
  <!DOCTYPE html>
  <html>
+ 
  <body>
  <!-- This is a comment -->
    <p>This is a paragraph.</p>
  <!-- Comments are not displayed in the browser -->
  </body>
+
  </html>
  ```
 Comments are also great for debugging HTML, because you can comment out HTML lines of code, one at a time, to search for errors:
@@ -38,11 +40,13 @@ Comments are also great for debugging HTML, because you can comment out HTML lin
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
  <!-- Do not display this at the moment
  <img border="0" src="pic_trulli.jpg" alt="Trulli">
  -->
  </body>
+
  </html>
  ```
 
@@ -65,6 +69,7 @@ In HTML, a color can be specified by using a color name:
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <h1 style="background-color:Tomato;">Tomato</h1>
    <h1 style="background-color:Orange;">Orange</h1>
@@ -75,6 +80,7 @@ In HTML, a color can be specified by using a color name:
    <h1 style="background-color:Violet;">Violet</h1>
    <h1 style="background-color:LightGray;">LightGray</h1>
  </body>
+
  </html>
  ```
  * HTML supports [140 standard color names](https://www.w3schools.com/colors/colors_names.asp).
@@ -91,6 +97,7 @@ You can set the background color for HTML elements:
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <h1 style="background-color:DodgerBlue;">Hello World</h1>
    <p style="background-color:Tomato;">
@@ -98,6 +105,7 @@ You can set the background color for HTML elements:
      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
    </p>
  </body>
+
  </html>
  ```
 #### Text Color
@@ -114,11 +122,13 @@ You can set the color of text:
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
- <h3 style="color:Tomato;">Hello World</h3>
+   <h3 style="color:Tomato;">Hello World</h3>
    <p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
    <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
  </body>
+
  </html>
  ```
 
@@ -134,11 +144,13 @@ You can set the color of borders:
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <h1 style="border: 2px solid Tomato;">Hello World</h1>
    <h1 style="border: 2px solid DodgerBlue;">Hello World</h1>
    <h1 style="border: 2px solid Violet;">Hello World</h1>
  </body>
+
  </html>
  ```
 
@@ -160,20 +172,23 @@ In HTML, colors can also be specified using RGB values, HEX values, HSL values, 
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>Same as color name "Tomato":</p>
-     <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
-     <h1 style="background-color:#ff6347;">#ff6347</h1>
-     <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+   <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+   <h1 style="background-color:#ff6347;">#ff6347</h1>
+   <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
    <p>Same as color name "Tomato", but 50% transparent:</p>
-     <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
-     <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+   <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+   <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
    <p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
  </body>
+
  </html>
  ```
 
 You will learn more about [RGB](https://www.w3schools.com/html/html_colors_rgb.asp), [HEX](https://www.w3schools.com/html/html_colors_hex.asp) and [HSL](https://www.w3schools.com/html/html_colors_hsl.asp) in the next chapters.
+
 
 #### Learn more about Color Values
 

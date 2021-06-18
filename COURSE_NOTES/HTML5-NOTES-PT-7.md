@@ -15,6 +15,7 @@ In this chapter we will go through the `<blockquote>`,`<q>`, `<abbr>`, `<address
  <!DOCTYPE html>
  <html>
  <body>
+
    <p>Here is a quote from WWF's website:</p>
    <blockquote cite="http://www.worldwildlife.org/who/index.html">
      For 50 years, WWF has been protecting the future of nature.
@@ -24,6 +25,7 @@ In this chapter we will go through the `<blockquote>`,`<q>`, `<abbr>`, `<address
      close to 5 million globally.
    </blockquote>
  </body>
+
  </html>
  ```
 ### HTML `<blockquote>` for Quotations
@@ -34,12 +36,14 @@ The HTML `<blockquote>` element defines a section that is quoted from another so
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>Browsers usually indent blockquote elements.</p>
    <blockquote cite="http://www.worldwildlife.org/who/index.html">
      For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
    </blockquote>
  </body>
+
  </html>
  ```
 
@@ -51,10 +55,12 @@ The HTML `<q>` tag defines a short quotation.
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>Browsers usually insert quotation marks around the q element.</p>
    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
  </body>
+
  </html>
  ```
 
@@ -67,10 +73,12 @@ The HTML `<abbr>` tag defines an abbreviation or an acronym, like "HTML", "CSS",
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
    <p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
  </body>
+
  </html>
  ```
 ### HTML `<address>` for Contact Information
@@ -82,16 +90,18 @@ The HTML `<address>` tag defines the contact information for the author/owner of
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>The HTML address element defines contact information (author/owner) of a document or article.</p>
    <address>
-   Written by John Doe.<br>
-   Visit us at:<br>
-   Example.com<br>
-   Box 564, Disneyland<br>
-   USA
+     Written by John Doe.<br>
+     Visit us at:<br>
+     Example.com<br>
+     Box 564, Disneyland<br>
+     USA
    </address>
  </body>
+
  </html>
  ```
 ### HTML `<cite>` for Work Title
@@ -103,12 +113,14 @@ The HTML `<cite>` tag defines the title of a creative work (e.g. a book, a poem,
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>The HTML cite element defines the title of a work.</p>
    <p>Browsers usually display cite elements in italic.</p>
      <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
  </body>
+
  </html>
  ```
 
@@ -120,10 +132,12 @@ BDO stands for Bi-Directional Override.
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
   <bdo dir="rtl">This line will be written from right to left</bdo>
  </body>
+ 
  </html>
  ```
 

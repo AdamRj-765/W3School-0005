@@ -112,10 +112,12 @@ These notes will provide the information compiled and deemed helpful in understa
 	```html
 	<!DOCTYPE html>
 	<html>
+
 	<body>
 	  <h1>My First Heading</h1>
 	  <p>My first paragraph.</p>
 	</body>
+	
 	</html>
 	```
 

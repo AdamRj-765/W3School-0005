@@ -14,12 +14,14 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>I am normal</p>
    <p style="color:red;">I am red</p>
    <p style="color:blue;">I am blue</p>
    <p style="font-size:50px;">I am big</p>
  </body>
+
  </html>
  ```
 ### The HTML Style Attribute
@@ -39,10 +41,12 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  ```html
  <!DOCTYPE html>
  <html>
+
  <body style="background-color:powderblue;">
    <h1>This is a heading</h1>
    <p>This is a paragraph.</p>
  </body>
+
  </html>
  ```
 
@@ -50,10 +54,12 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <h1 style="background-color:powderblue;">This is a heading</h1>
    <p style="background-color:tomato;">This is a paragraph.</p>
  </body>
+
  </html>
  ```
 
@@ -63,10 +69,12 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <h1 style="color:blue;">This is a heading</h1>
    <p style="color:red;">This is a paragraph.</p>
  </body>
+
  </html>
  ```
 
@@ -77,10 +85,12 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <h1 style="font-family:verdana;">This is a heading</h1>
    <p style="font-family:courier;">This is a paragraph.</p>
  </body>
+
  </html>
  ```
 
@@ -91,10 +101,12 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <h1 style="font-size:300%;">This is a heading</h1>
    <p style="font-size:160%;">This is a paragraph.</p>
  </body>
+
  </html>
  ```
 
@@ -105,10 +117,12 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <h1 style="text-align:center;">Centered Heading</h1>
    <p style="text-align:center;">Centered paragraph.</p>
  </body>
+
  </html>
  ```
 
@@ -127,11 +141,13 @@ The HTML `style` attribute is used to add styles to an element, such as color, f
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p><b>This text is bold</b></p>
    <p><i>This text is italic</i></p>
    <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
  </body>
+
  </html>
  ```
 
@@ -157,10 +173,12 @@ The HTML `<b>` element defines bold text, without any extra importance.
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>This text is normal.</p>
    <p><b>This text is bold.</b></p>
  </body>
+
  </html>
  ```
 
@@ -169,10 +187,12 @@ The HTML `<strong>` element defines text with strong importance. The content ins
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>This text is normal.</p>
    <p><strong>This text is important!</strong></p>
  </body>
+
  </html>
  ```
 
@@ -184,10 +204,12 @@ The HTML `<i>` element defines a part of text in an alternate voice or mood. The
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>This text is normal.</p>
    <p><i>This text is italic.</i></p>
  </body>
+
  </html>
  ```
 The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic.
@@ -196,10 +218,12 @@ The HTML `<em>` element defines emphasized text. The content inside is typically
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>This text is normal.</p>
    <p><em>This text is emphasized.</em></p>
  </body>
+
  </html>
  ```
 ### HTML `<small>` Element
@@ -209,10 +233,12 @@ The HTML `<em>` element defines emphasized text. The content inside is typically
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>This is some normal text.</p>
    <p><small>This is some smaller text.</small></p>
  </body>
+
  </html>
  ```
 
@@ -223,9 +249,11 @@ The HTML `<mark>` element defines text that should be marked or highlighted:
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>Do not forget to buy <mark>milk</mark> today.</p>
  </body>
+
  </html>
  ```
 
@@ -236,9 +264,11 @@ The HTML `<del>` element defines text that has been deleted from a document. Bro
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>My favorite color is <del>blue</del> red.</p>
  </body>
+
  </html>
  ```
 
@@ -249,9 +279,11 @@ The HTML `<ins>` element defines a text that has been inserted into a document. 
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
  </body>
+
  </html>
  ```
 
@@ -262,9 +294,11 @@ The HTML `<sub>` element defines subscript text. Subscript text appears half a c
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>This is <sub>subscripted</sub> text.</p>
  </body>
+
  </html>
  ```
 
@@ -275,9 +309,11 @@ The HTML `<sup>` element defines superscript text. Superscript text appears half
  ```html
  <!DOCTYPE html>
  <html>
+
  <body>
    <p>This is <sup>superscripted</sup> text.</p>
  </body>
+ 
  </html>
  ```
 

@@ -54,13 +54,16 @@ These notes will provide the information compiled and deemed helpful in understa
 				<!-- index-1.html -->
 				<!DOCTYPE html>
 				<html lang="en">
+
 			  <head>
-			      <meta charset="utf-8"/>
-			      <title>Index-1 Page </title>
+			     <meta charset="utf-8"/>
+			     <title>Index-1 Page </title>
 			  </head>
+
 			  <body>
-			      <img src="images/image-1.jpg" alt="Omni-Solutions Tech">
+			     <img src="images/image-1.jpg" alt="Omni-Solutions Tech">
 			  </body>
+
 				</html>
 				```
 			* When double clicking on the `index-1.html` file you should see the page load in your default browser with the Omni-Solutions Tech image that is properly linked in your page.
@@ -82,13 +85,16 @@ These notes will provide the information compiled and deemed helpful in understa
 			<!-- index-2.html -->
 			<!DOCTYPE html>
 			<html lang="en">
+
 			<head>
 			   <meta charset="utf-8"/>
 			   <title>Index-2 Page </title>
 			</head>
+
 			<body>
 			   <img src="../images/image-1.jpg" alt="Omni-Solutions Tech">
 			</body>
+			
 			</html>
 			```
 		* **Example 3**
