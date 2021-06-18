@@ -173,9 +173,16 @@ In HTML, colors can also be specified using RGB values, HEX values, HSL values, 
  </html>
  ```
 
+You will learn more about [RGB](https://www.w3schools.com/html/html_colors_rgb.asp), [HEX](https://www.w3schools.com/html/html_colors_hex.asp) and [HSL](https://www.w3schools.com/html/html_colors_hsl.asp) in the next chapters.
+
 #### Learn more about Color Values
 
-You will learn more about [RGB](https://www.w3schools.com/html/html_colors_rgb.asp), [HEX](https://www.w3schools.com/html/html_colors_hex.asp) and [HSL](https://www.w3schools.com/html/html_colors_hsl.asp) in the next chapters.
+The next few pages from W3Schools HTML5 tutorial are difficult to recreate in markdown documents so we will simply reference them here before going into the next chapter:
+
+1. [HTML RGB and RGBA Colors](https://www.w3schools.com/html/html_colors_rgb.asp)
+2. [HTML HEX Colors](https://www.w3schools.com/html/html_colors_hex.asp)
+3. [HTML HSL and HSLA Colors](https://www.w3schools.com/html/html_colors_hsl.asp)
+
 
 #### Conclusion
 This concludes Part 8 of the Notes on HTML5 Coursework for the Video Course and Tutorial information from W3Schools.com. Please move on to the next document [HTML5-NOTES-PT-9.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-9.md).
