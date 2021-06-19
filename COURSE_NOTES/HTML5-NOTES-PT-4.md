@@ -1,5 +1,5 @@
 
-# W3School-0005 Video Notes Pt 4
+# W3School-0005 - HTML5 NOTES-PT-4
 
 
 ## INTRODUCTION
@@ -51,13 +51,16 @@ These notes will provide the information compiled and deemed helpful in understa
  ```html
  <!DOCTYPE html>
  <html lang="en">
-    <head>
-       <meta charset="utf-8"/>
-       <title>Index-1 Page </title>
-    </head>
-    <body>
-       <img src="images/image-1.jpg" alt="Omni-Solutions Tech">
-    </body>
+
+ <head>
+   <meta charset="utf-8"/>
+   <title>Index-1 Page </title>
+ </head>
+
+ <body>
+   <img src="images/image-1.jpg" alt="Omni-Solutions Tech">
+ </body>
+
  </html>
  ```
  * Country codes can also be added to the language code in the `lang` attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
@@ -65,13 +68,16 @@ These notes will provide the information compiled and deemed helpful in understa
  ```html
  <!DOCTYPE html>
  <html lang="en-US">
-    <head>
-       <meta charset="utf-8"/>
-       <title>Index-1 Page </title>
-    </head>
-    <body>
-       <img src="images/image-1.jpg" alt="Omni-Solutions Tech">
-    </body>
+
+ <head>
+   <meta charset="utf-8"/>
+   <title>Index-1 Page </title>
+ </head>
+
+ <body>
+   <img src="images/image-1.jpg" alt="Omni-Solutions Tech">
+ </body>
+ 
  </html>
  ```
 
@@ -140,4 +146,4 @@ These notes will provide the information compiled and deemed helpful in understa
 
 
 #### Conclusion
-This concludes Part 3 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-5.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-5.md).
+This concludes Part 4 of the Notes on HTML5 Coursework for the Video Course and Tutorial information from W3Schools.com. Please move on to the next document [HTML5-NOTES-PT-5.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-5.md).

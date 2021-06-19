@@ -1,5 +1,5 @@
 
-# W3School-0005 Video Notes Pt 5
+# W3School-0005 - HTML5 NOTES-PT-5
 
 
 ## INTRODUCTION
@@ -16,23 +16,23 @@ A complete list of all attributes for each HTML element, is listed in W3School's
 ### HTML Headings
 
 HTML headings are titles or subtitles that you want to display on a webpage.
- * Example
+ * Example:
  ```html
  <!DOCTYPE html>
  <html lang="en-US">
 
  <head>
-    <meta charset="utf-8" />
-    <title>Test Formatting Index</title>
+   <meta charset="utf-8" />
+   <title>Test Formatting Index</title>
  </head>
 
  <body>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+   <h1>Heading 1</h1>
+   <h2>Heading 2</h2>
+   <h3>Heading 3</h3>
+   <h4>Heading 4</h4>
+   <h5>Heading 5</h5>
+   <h6>Heading 6</h6>
  </body>
 
  </html>
@@ -56,19 +56,13 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 
 W3Schools' tag reference contains additional information about these tags and their attributes.
 
-| Tag        | Description |
-| :---         |     :---:      |          ---: |
-| &lsaquo; html &rsaquo;     | 	Defines the root of an HTML document |
-| &lsaquo; body &rsaquo;      | 	Defines the document's body |
-| &lsaquo; h1 &rsaquo; to &lsaquo; h6 &rsaquo; | Defines HTML headings |
 
-```
-| Tag                         | Description                            |
-| --------------------------- | -------------------------------------- |
-| <html>                      | Defines the root of an HTML document   |
-| <body>                      | Defines the document's body            |
-| <h1> to <h6>                | Defines HTML headings                  |
-```
+  | Tag  | Description |
+  | :---         |          ---: |
+  | `<html>`   | Defines the root of an HTML document     |
+  | `<body>`     | Defines the document's body       |
+  | `<h1>` to `<h6>`     | Defines HTML headings       |
+
 
  * For a complete list of all available HTML tags, visit our [HTML Tag Reference](https://www.w3schools.com/tags/default.asp).
 
@@ -83,7 +77,9 @@ A paragraph always starts on a new line, and is usually a block of text.
  <p>This is a paragraph.</p>
  <p>This is another paragraph.</p>
  ```
- * HTML Display - You cannot be sure how HTML will be displayed.
+### HTML Display
+
+ * You cannot be sure how HTML will be displayed.
  * Large or small screens, and resized windows will create different results.
  * With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
  * The browser will automatically remove any extra spaces and lines when the page is displayed:
@@ -146,6 +142,7 @@ This poem will display on a single line:
 ```
 
 #### Solution - The HTML <pre> Element
+
 The HTML `<pre>` element defines preformatted text.
  * The text inside a `<pre>` element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
  ```html
@@ -161,10 +158,21 @@ The HTML `<pre>` element defines preformatted text.
 ```
 ### HTML Tag Reference
 W3Schools' tag reference contains additional information about HTML elements and their attributes.
+
+
+  | Tag  | Description |
+  | :---         |          ---: |
+  | `<p>`   | Defines a paragraph     |
+  | `<hr>`     | Defines a thematic change in the content       |
+  | `<br>` to `<h6>`     | Inserts a single line break       |
+  | `<pre>`     | Defines pre-formatted text       |
+
+
+
  * For a complete list of all available HTML tags, visit our [HTML Tag Reference](https://www.w3schools.com/tags/default.asp).
 
 
 
 
 #### Conclusion
-This concludes Part 3 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-6.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-6.md).
+This concludes Part 5 of the Notes on HTML5 Coursework for the Video Course and Tutorial information from W3Schools.com. Please move on to the next document [HTML5-NOTES-PT-6.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-6.md).

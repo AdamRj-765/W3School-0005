@@ -1,5 +1,5 @@
 
-# W3School-0005 Video Notes Pt 2
+# W3School-0005 - HTML5 NOTES-PT-2
 
 
 ## INTRODUCTION
@@ -106,16 +106,18 @@ These notes will provide the information compiled and deemed helpful in understa
 	* Examples of some HTML elements:
 	```html
 	<h1>My First Heading</h1>
-		<p>My first paragraph.</p>
+	  <p>My first paragraph.</p>
 	```
 	* Not covered in *Section 5.* and *Section 6.* is an example of how the Nested Elements are represented in the code itself. Here we have an example of a basic HTML page:
 	```html
 	<!DOCTYPE html>
 	<html>
-	   <body>
-	      <h1>My First Heading</h1>
-	      <p>My first paragraph.</p>
-	    </body>
+
+	<body>
+	  <h1>My First Heading</h1>
+	  <p>My first paragraph.</p>
+	</body>
+	
 	</html>
 	```
 
@@ -124,10 +126,8 @@ These notes will provide the information compiled and deemed helpful in understa
 	* Nested inside the `<html>` element there is a `<body>` element:
 	```html
 	<body>
-
-		<h1>My First Heading</h1>
-			<p>My first paragraph.</p>
-
+	  <h1>My First Heading</h1>
+	  <p>My first paragraph.</p>
 	</body>
 	```
 
@@ -135,7 +135,7 @@ These notes will provide the information compiled and deemed helpful in understa
 	* Then, inside the `<body>` element there are two other elements: `<h1>` and `<p>` as seen here:
 	```html
 	<h1>My First Heading</h1>
-		<p>My first paragraph.</p>
+	<p>My first paragraph.</p>
 	```
 
 
@@ -150,4 +150,4 @@ These notes will provide the information compiled and deemed helpful in understa
 
 
 #### Conclusion
-This concludes Part 2 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-3.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-3.md).
+This concludes Part 2 of the Notes on HTML5 Coursework for the Video Course and Tutorial information from W3Schools.com. Please move on to the next document [HTML5-NOTES-PT-3.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-3.md).

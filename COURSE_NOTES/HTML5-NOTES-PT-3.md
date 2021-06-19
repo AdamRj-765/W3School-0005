@@ -1,5 +1,5 @@
 
-# W3School-0005 Video Notes Pt 3
+# W3School-0005 - HTML5 NOTES-PT-3
 
 
 ## INTRODUCTION
@@ -54,13 +54,16 @@ These notes will provide the information compiled and deemed helpful in understa
 				<!-- index-1.html -->
 				<!DOCTYPE html>
 				<html lang="en">
-			      <head>
-			         <meta charset="utf-8"/>
-			         <title>Index-1 Page </title>
-			      </head>
-			      <body>
-			         <img src="images/image-1.jpg" alt="Omni-Solutions Tech">
-			      </body>
+
+			  <head>
+			     <meta charset="utf-8"/>
+			     <title>Index-1 Page </title>
+			  </head>
+
+			  <body>
+			     <img src="images/image-1.jpg" alt="Omni-Solutions Tech">
+			  </body>
+
 				</html>
 				```
 			* When double clicking on the `index-1.html` file you should see the page load in your default browser with the Omni-Solutions Tech image that is properly linked in your page.
@@ -82,13 +85,16 @@ These notes will provide the information compiled and deemed helpful in understa
 			<!-- index-2.html -->
 			<!DOCTYPE html>
 			<html lang="en">
-			   <head>
-			      <meta charset="utf-8"/>
-			      <title>Index-2 Page </title>
-			   </head>
-			   <body>
-			      <img src="../images/image-1.jpg" alt="Omni-Solutions Tech">
-			   </body>
+
+			<head>
+			   <meta charset="utf-8"/>
+			   <title>Index-2 Page </title>
+			</head>
+
+			<body>
+			   <img src="../images/image-1.jpg" alt="Omni-Solutions Tech">
+			</body>
+			
 			</html>
 			```
 		* **Example 3**
@@ -107,15 +113,15 @@ These notes will provide the information compiled and deemed helpful in understa
 			<!-- index-2.html -->
 			<!DOCTYPE html>
 			<html lang="en">
-			   <head>
-			       <meta charset="utf-8"/>
-			       <title>Index-2 Page </title>
-			   </head>
-			   <body>
-			       <a href="./pages/index2.html">Page 2</a>
-			   </body>
+			<head>
+			  <meta charset="utf-8"/>
+			  <title>Index-2 Page </title>
+			</head>
+			<body>
+			  <a href="./pages/index2.html">Page 2</a>
+			</body>
 			</html>
 			```
 
 #### Conclusion
-This concludes Part 3 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-4.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-4.md).
+This concludes Part 3 of the Notes on HTML5 Coursework for the Video Course and Tutorial information from W3Schools.com. Please move on to the next document [HTML5-NOTES-PT-4.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-4.md).
