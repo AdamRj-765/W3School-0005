@@ -115,5 +115,6 @@ An external style sheet is used to define the style for many HTML pages.
  ```
 
 
+
 #### Conclusion
 This concludes Part 9 of the Notes on HTML5 Coursework for the Video Course and information from W3Schools.com. Please move on to the next document [HTML-NOTES-PT-10.md](https://github.com/AdamRj-765/W3School-0005/blob/master/COURSE_NOTES/HTML5-NOTES-PT-10.md).
