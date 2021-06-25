@@ -98,7 +98,7 @@ An external style sheet is used to define the style for many HTML pages.
  ```
  * The external style sheet can be written in any text editor. The file must not contain any HTML code, and must be saved with a .css extension.
  * Here is what the "styles.css" file looks like:
-##### `style.css`
+#### `style.css:`
 
  ```css
  body {
@@ -111,7 +111,7 @@ An external style sheet is used to define the style for many HTML pages.
    color: red;
  }
  ```
- 
+
 
 
 
