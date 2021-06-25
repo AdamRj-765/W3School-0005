@@ -96,7 +96,29 @@ An external style sheet is used to define the style for many HTML pages.
 
  </html>
  ```
- * The external style sheet can be written in any text editor. The file must not contain any HTML code, and must be saved with a .css extension. The relative link for this file links to a file that is in the same folder as the html file linking to it. This is a relative path. A more common practice is to put .css files into folder unto themselves usually called "css".  In that event the `href` property value would be a relative link that would look like this:
+ * The external style sheet can be written in any text editor. The file must not contain any HTML code, and must be saved with a .css extension.
+ * Here is what the "styles.css" file looks like:
+##### `style.css`
+
+ ```css
+ body {
+   background-color: powderblue;
+ }
+ h1 {
+   color: blue;
+ }
+ p {
+   color: red;
+ }
+ ```
+ 
+
+
+
+
+
+
+ The relative link for this file links to a file that is in the same folder as the html file linking to it. This is a relative path. A more common practice is to put .css files into folder unto themselves usually called "css".  In that event the `href` property value would be a relative link that would look like this:
 
  ```html
  <!DOCTYPE html>
