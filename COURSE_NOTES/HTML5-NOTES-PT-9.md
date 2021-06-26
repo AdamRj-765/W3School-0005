@@ -114,10 +114,6 @@ An external style sheet is used to define the style for many HTML pages.
 
 
 
-
-
-
-
  The relative link for this file links to a file that is in the same folder as the html file linking to it. This is a relative path. A more common practice is to put .css files into folder unto themselves usually called "css".  In that event the `href` property value would be a relative link that would look like this:
 
  ```html
